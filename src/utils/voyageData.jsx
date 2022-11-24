@@ -7,7 +7,7 @@ export const voyageData = [
     age_recommended: "18-70",
     name_guide: "Phoebe Buffay",
     image: "src/assets/traverser_route.jpg",
-    country: "Thailande",
+    country: "Thaïlande",
     city: "Bangkok",
     price: 80,
     dangerosity: 7.8,
