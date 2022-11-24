@@ -7,22 +7,24 @@
 .argentine {
     width: 60px;
     position: absolute;
-    top: 675px;
-    left: 415px;
+    top: 80vh;
+    left: 47vh;
 }
 
 .bolivie {
     width: 60px;
     position: absolute;
-    top: 628px;
-    left: 398px;
+    top: 71vh;
+    left: 45vh;
 }
 
 .bresil {
     width: 60px;
     position: absolute;
-    top: 600px;
-    left: 445px;
+    top: 69vh;
+    left: 52vh;
+    background-color: aqua;
+
 }
 
 .cambodge {
@@ -46,9 +48,9 @@
     left: 630px;
 }
 
-.espagne {
+.france {
     width: 60px;
     position: absolute;
-    top: 385px;
+    top: 365px;
     left: 630px;
 }
