@@ -1,1 +1,54 @@
+.planisphere_img {
+    width: 71vw;
+    height: auto;
+    padding: 1.5vw;
+}
 
+.argentine {
+    width: 60px;
+    position: absolute;
+    top: 675px;
+    left: 415px;
+}
+
+.bolivie {
+    width: 60px;
+    position: absolute;
+    top: 628px;
+    left: 398px;
+}
+
+.bresil {
+    width: 60px;
+    position: absolute;
+    top: 600px;
+    left: 445px;
+}
+
+.cambodge {
+    width: 60px;
+    position: absolute;
+    top: 495px;
+    left: 1060px;
+}
+
+.emirats_arabes_unis {
+    width: 60px;
+    position: absolute;
+    top: 452px;
+    left: 850px;
+}
+
+.espagne {
+    width: 60px;
+    position: absolute;
+    top: 385px;
+    left: 630px;
+}
+
+.espagne {
+    width: 60px;
+    position: absolute;
+    top: 385px;
+    left: 630px;
+}

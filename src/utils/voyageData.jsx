@@ -1,4 +1,4 @@
-export const voyageInfo = [
+export const voyageData = [
   {
     id_activity: 1,
     name_activity: "Traverser la rue en Thailande",
@@ -7,8 +7,8 @@ export const voyageInfo = [
     age_recommended: "18-70",
     name_guide: "Phoebe Buffay",
     image: "src/assets/traverser_route.jpg",
-    country: "Argentine",
-    city: "Buneos Aires",
+    country: "Thaïlande",
+    city: "Bangkok",
     price: 80,
     dangerosity: 7.8,
   },
