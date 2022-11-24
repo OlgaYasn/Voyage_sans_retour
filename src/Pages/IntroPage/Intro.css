@@ -1,0 +1,16 @@
+.intro{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.intro__container{
+display: flex;
+flex-direction: column;
+justify-content: start;
+align-items: center;
+}
+.intro__img{
+position: relative;
+
+}
