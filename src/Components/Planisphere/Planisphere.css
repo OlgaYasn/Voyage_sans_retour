@@ -5,51 +5,150 @@
 }
 
 .argentine {
-    width: 60px;
+    width: 7vmin;
     position: absolute;
-    top: 80vh;
-    left: 22vw;
+    top: 80vmin;
+    left: 48vmin;
+    background-color: aqua;
+
 }
 
 .bolivie {
-    width: 60px;
+    width: 7vmin;
     position: absolute;
-    top: 72vh;
-    left: 20vw;
+    top: 73vmin;
+    left: 44vmin;
+    background-color: red;
 }
 
 .bresil {
-    width: 60px;
+    width: 7vmin;
     position: absolute;
-    top: 69vh;
-    left: 23.5vw;
+    top: 70vmin;
+    left: 52vmin;
+    background-color: green;
 }
 
 .cambodge {
-    width: 60px;
+    width: 7vmin;
     position: absolute;
-    top: 495px;
-    left: 1060px;
-    background-color: aqua;
+    top: 70vmin;
+    left: 52vmin;
+    background-color: green;
 }
 
 .emirats_arabes_unis {
-    width: 60px;
+    width: 7vmin;
     position: absolute;
-    top: 452px;
-    left: 850px;
+    top: 70vmin;
+    left: 52vmin;
+    background-color: green;
 }
 
 .espagne {
-    width: 60px;
+    width: 7vmin;
     position: absolute;
-    top: 385px;
-    left: 630px;
+    top: 70vmin;
+    left: 52vmin;
+    background-color: green;
 }
 
 .france {
-    width: 60px;
+    width: 7vmin;
     position: absolute;
-    top: 365px;
-    left: 630px;
+    top: 70vmin;
+    left: 52vmin;
+    background-color: green;
+}
+
+.inde {
+    width: 7vmin;
+    position: absolute;
+    top: 70vmin;
+    left: 52vmin;
+    background-color: green;
+}
+.italie {
+    width: 7vmin;
+    position: absolute;
+    top: 70vmin;
+    left: 52vmin;
+    background-color: green;
+}
+.japon {
+    width: 7vmin;
+    position: absolute;
+    top: 70vmin;
+    left: 52vmin;
+    background-color: green;
+}
+.maroc {
+    width: 7vmin;
+    position: absolute;
+    top: 70vmin;
+    left: 52vmin;
+    background-color: green;
+}
+.namibie {
+    width: 7vmin;
+    position: absolute;
+    top: 70vmin;
+    left: 52vmin;
+    background-color: green;
+}
+.nepal {
+    width: 7vmin;
+    position: absolute;
+    top: 70vmin;
+    left: 52vmin;
+    background-color: green;
+}
+.pays_bas {
+    width: 7vmin;
+    position: absolute;
+    top: 70vmin;
+    left: 52vmin;
+    background-color: green;
+}
+.portugal {
+    width: 7vmin;
+    position: absolute;
+    top: 70vmin;
+    left: 52vmin;
+    background-color: green;
+}
+.russie {
+    width: 7vmin;
+    position: absolute;
+    top: 70vmin;
+    left: 52vmin;
+    background-color: green;
+}
+.tahiti {
+    width: 7vmin;
+    position: absolute;
+    top: 70vmin;
+    left: 52vmin;
+    background-color: green;
+}
+.thailande {
+    width: 7vmin;
+    position: absolute;
+    top: 70vmin;
+    left: 52vmin;
+    background-color: green;
+}
+.usa {
+    width: 7vmin;
+    position: absolute;
+    top: 70vmin;
+    left: 52vmin;
+    background-color: green;
+}
+.vietnam {
+    width: 7vmin;
+    position: absolute;
+    top: 70vmin;
+    left: 52vmin;
+    background-color: green;
 }
