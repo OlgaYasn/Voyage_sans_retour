@@ -1,4 +1,20 @@
 .cardList {
     background-color: rgb(209, 209, 226);
+
+}
+
+.country_details {
+    background-color: blueviolet;
+    list-style: none;
     
+}
+
+.country_select {
+    display: flex;
+    justify-content: center;
+}
+
+.country_data li {
+    display: flex;
+    justify-content: center;
 }
