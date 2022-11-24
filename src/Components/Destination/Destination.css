@@ -1,4 +1,7 @@
 .cardList {
+    flex-shrink: 0;
+    width: 23vw;
     background-color: rgb(209, 209, 226);
+    padding: 1.5vw;
     
 }
