@@ -8,23 +8,21 @@
     width: 60px;
     position: absolute;
     top: 80vh;
-    left: 47vh;
+    left: 22vw;
 }
 
 .bolivie {
     width: 60px;
     position: absolute;
-    top: 71vh;
-    left: 45vh;
+    top: 72vh;
+    left: 20vw;
 }
 
 .bresil {
     width: 60px;
     position: absolute;
     top: 69vh;
-    left: 52vh;
-    background-color: aqua;
-
+    left: 23.5vw;
 }
 
 .cambodge {
@@ -32,6 +30,7 @@
     position: absolute;
     top: 495px;
     left: 1060px;
+    background-color: aqua;
 }
 
 .emirats_arabes_unis {
