@@ -1,18 +1,21 @@
-import React from 'react';
-import Destination from '../../Components/Destination/Destination';
-import Navbar from '../../Components/Navbar/Navbar';
-import Planisphere from '../../Components/Planisphere/Planisphere';
-import "./Home.css";
+import React from 'react'
+import Destination from '../../Components/Destination/Destination'
+import DestinationDetails from '../../Components/DestinationDetails/DestinationDetails'
+import Navbar from '../../Components/Navbar/Navbar'
+import Planisphere from '../../Components/Planisphere/Planisphere'
+import './Home.css'
 
 const Home = () => {
-    return (
-        <div>
-            <h1>Home</h1>
-            <Destination />
-            <Navbar />
+  return (
+    <div>
+          <Navbar />
+            <div className='main_section'>
             <Planisphere />
-        </div>
-    );
-};
+              <Destination />
+            </div>
+          <DestinationDetails />
+    </div>
+  )
+}
 
-export default Home;
+export default Home
