@@ -1,302 +1,224 @@
 const voyageInfo = [
-{
-id_activity :,
-name_activity:, 
-description :,
-age_recommended:,
-name_guide:,
-image:,
-country:,
-city:,
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-},
-{
-id_activity : 	
-name_activity:
-description :
-age_recommended:	
-name_guide:
-image:
-country:
-city :
-}
-]
+  {
+    id_activity: 17,
+    name_activity: "Tenter de battre le record de Jacques Mayol en Apnée",
+    description:
+      "Vous avez aimé le film Le Grand Bleu ? Nous pouvons vous faire revivre les emotions de Jacques Mayol ! Tentez de battre son record afin que votre nom reste dans l'histoire. Prérequis nécessaire ? Aucun !",
+    age_recommended: "70+",
+    name_guide: "Ron Swanson",
+    image: "src/assets/apnee.webp",
+    country: "Italie",
+    city: "Ile d'Elbe",
+    price: 5130,
+    dangerosity: 9.1,
+  },
+  {
+    id_activity: 18,
+    name_activity: "Rodéo après une bouteille de tequila",
+    description:
+      "Combinez les activités les plus emblématiques de la région : tequila et rodeo. Parfait pour un enterrement de vie de garçon ou un enterrement tout court.",
+    age_recommended: "18-70",
+    name_guide: "Phoebe Buffay",
+    image: "src/assets/rodeo.jpg",
+    country: "USA",
+    city: "Dallas",
+    price: 568,
+    dangerosity: 8.2,
+  },
+  {
+    id_activity: 19,
+    name_activity: "Lacher de taureau",
+    description:
+      "Admirez l'événement le plus emblématique de la ville depuis le premier rang. Nous vous réserverons une table en terasse dans la rue principale de la ville. Vous la reconnaitrez pas sa nappe rouge.",
+    age_recommended: "70+",
+    name_guide: "Ron Swanson",
+    image: "src/assets/taureau_pampelune.jpg",
+    country: "Espagne",
+    city: "Pampelune",
+    price: 369,
+    dangerosity: 8.2,
+  },
+  {
+    id_activity: 20,
+    name_activity: "Attendre au feu rouge au Vietnam",
+    description:
+      "Les Thaïlandais sont très peu respectueux du Code de la route. Les véhicules sont nombreux et variés sur les chaussées :  Il en résulte une ambiance anarchique, qu'il vous faudra gérer avec sang froid. Les accidents sont fréquents et souvent mortels. Ca vous a donné envie ? Parfait !",
+    age_recommended: "18-70",
+    name_guide: "Ron Swanson",
+    image: "src/assets/feu_rouge.jpg",
+    country: "Vietnam",
+    city: "Ho Chi Minh",
+    price: 10,
+    dangerosity: 7.2,
+  },
+  {
+    id_activity: 21,
+    name_activity: "Répondre Oui à une question incomprise, en Asie",
+    description:
+      "Vous vous sentez seul(e) et vous avez envie de faire de nouvelles connaissance ? Parlez aux locaux, faites-vous inviter chez eux, vous ne le regretterez pas, promis.",
+    age_recommended: "18-70",
+    name_guide: "Ron Swanson",
+    image: "src/assets/oui_asiatique.jpg",
+    country: "Cambodge",
+    city: "Phnom Penh",
+    price: 30,
+    dangerosity: 6.2,
+  },
+  {
+    id_activity: 22,
+    name_activity: "Suivre un rabatteur au Japon",
+    description:
+      "Faites confiance aux locaux pour les expériences les plus inédites. Suivez-les dans leurs bars et attendez voir ce qu'ils ont à vous offrir.",
+    age_recommended: "18-70",
+    name_guide: "Ron Swanson",
+    image: "src/assets/rabateur.webp",
+    country: "Japon",
+    city: "Tokyo",
+    price: 150,
+    dangerosity: 6.5,
+  },
+  {
+    id_activity: 23,
+    name_activity: "Nager avec les requins",
+    description:
+      "Beaucoup sous-estiment l'intelligence et la gentillesse des requins. Ce sont des animaux très attachants et affectueux.",
+    age_recommended: "70+",
+    name_guide: "Jim Carrey",
+    image: "src/assets/requin.webp",
+    country: "France",
+    city: "La Réunion",
+    price: 880,
+    dangerosity: 8.7,
+  },
+  {
+    id_activity: 24,
+    name_activity: "Faire du surf sur le Bassin d'Arcachon",
+    description:
+      "Ne sous-estimez pas les sensations que peut procurer une bonne session de surf sur le Bassin. Testez pas vous-même.",
+    age_recommended: "18-70",
+    name_guide: "Jim Carrey",
+    image: "src/assets/surf_bassin.jpeg",
+    country: "France",
+    city: "Bordeaux",
+    price: 250,
+    dangerosity: 4.7,
+  },
+  {
+    id_activity: 25,
+    name_activity: "Apprendre le surf à Nazaré",
+    description:
+      "Le Canyon de Nazaré provoque de grosses vagues, faisant de Nazaré un spot incontournable dans le monde du surf. Actuel détenteur du record du monde de la plus grosse vague surfée avec une hauteur d’un peu plus de 24 mètres à Nazaré en 2017 est Rodrigo Koxa. Niveau : recommandés pour les débutants!",
+    age_recommended: "18-70",
+    name_guide: "Jim Carrey",
+    image: "src/assets/surf_nazare.jpeg",
+    country: "Portugal",
+    city: "Nazaré",
+    price: 980,
+    dangerosity: 8.9,
+  },
+  {
+    id_activity: 26,
+    name_activity: "Prendre la ligne 13 à Paris à l'heure de pointe",
+    description:
+      "Vous vous sentez un peu seul(e) ? Venez à la rencontre des gens à l'ambiance Amélie Poulain",
+    age_recommended: "18-70",
+    name_guide: "Jim Carrey",
+    image: "src/assets/ligne_13.jpg",
+    country: "France",
+    city: "Paris",
+    price: 15,
+    dangerosity: 7.2,
+  },
+  {
+    id_activity: 27,
+    name_activity: "Refaire son passeport en 3 jours ",
+    description:
+      "Envie d'une aventure à la dernière minute dans un pays exotique ? Pas de problème. Faites confiance à l'administration française pour finaliser vos documents dans les plus brefs délais.",
+    age_recommended: "18-70",
+    name_guide: "Jim Carrey",
+    image: "src/assets/passeport.jpg",
+    country: "France",
+    city: "Bordeaux",
+    price: 75,
+    dangerosity: 6.8,
+  },
+  {
+    id_activity: 28,
+    name_activity: "Vivre avec le SMIC à Bordeaux",
+    description:
+      "Il en faut peu pour être heureux ! Vivez une vie sans excès, sans plaisir et sans joie de vivre.",
+    age_recommended: "18-70",
+    name_guide: "Jim Carrey",
+    image: "src/assets/smic.jpg",
+    country: "France",
+    city: "Bordeaux",
+    price: 1645.48,
+    dangerosity: 9.5,
+  },
+  {
+    id_activity: 29,
+    name_activity: "Marcher sur la Canebière avec un maillot d'équipe de Paris",
+    description:
+      "On dit que les opposés s'attirent. Testez ce dicton dans le quartier le plus animé de Marseille.",
+    age_recommended: "18-70",
+    name_guide: "Phoebe Buffay",
+    image: "src/assets/foot_canebiere.jpg",
+    country: "France",
+    city: "Marseille",
+    price: 50,
+    dangerosity: 7.2,
+  },
+  {
+    id_activity: 30,
+    name_activity:
+      "Aller voir un match de La Bombonera avec un maillot de River Plate",
+    description:
+      "On dit que les opposés s'attirent. Testez ce dicton dans le stade mythique de Bombonera.",
+    age_recommended: "18-70",
+    name_guide: "Phoebe Buffay",
+    image: "src/assets/foot_bombonera.jpg",
+    country: "Argentine",
+    city: "Buneos Aires",
+    price: 86,
+    dangerosity: 7.8,
+  },
+  {
+    id_activity: 31,
+    name_activity: "Trouver des toilettes publiques propres au centre de Paris",
+    description:
+      "Tout comme les yeux sont le miroir de l'âme, les toilettes sont le mirroir d'une ville. Relévez le défi de trouver les toilettes publiques qui brillent comme la Ville des Lumières.",
+    age_recommended: "18-70",
+    name_guide: "Phoebe Buffay",
+    image: "src/assets/toilettes.jpg",
+    country: "France",
+    city: "Paris",
+    price: 50,
+    dangerosity: 1,
+  },
+  {
+    id_activity: 32,
+    name_activity: "Manger du fugu",
+    description:
+      "Vous aimez des sushis ? Vous devez goûter le fugu ! C’est un poisson toxique qui ne peut être servi au Japon que dans les restaurants disposant d’un maître fugu qualifié. Notre maître fugu étant en arrêt maladie, on a fait appel à son stagiaire Jonathan. Ca devrait être tout aussi bon !",
+    age_recommended: "18-70",
+    name_guide: "Phoebe Buffay",
+    image: "src/assets/fugu.jpg",
+    country: "Japon",
+    city: "Tokyo",
+    price: 250,
+    dangerosity: 8.5,
+  },
+  {
+    id_activity: 33,
+    name_activity: "Découvrir le gout du Durian",
+    description:
+      "Faites vibrer vos papilles en goûtant un durian. C’est vrai que l’odeur de ce fruit le précède souvent, que ce soit en réputation ou dans vos narines. Ca sent un peu la mort mais il y a des gens qui aiment ça. Peut-être que c'est votre cas également ?",
+    age_recommended: "18-70",
+    name_guide: "Phoebe Buffay",
+    image: "src/assets/durian.jpg",
+    country: "Vietnam",
+    city: "Hanoï",
+    price: 45,
+    dangerosity: 8.5,
+  };
+];
