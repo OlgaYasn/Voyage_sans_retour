@@ -16,3 +16,12 @@ width: 40%;
 height: 40%;
 
 }
+.intro__container h1{
+    margin: 0%;
+}
+.intro__container h2 {
+    margin: 0%;
+}
+.btn__intro{
+    border-radius: 2px;
+}
