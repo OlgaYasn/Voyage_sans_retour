@@ -1,4 +1,4 @@
-const voyageInfo = [
+export const voyageInfo = [
 {
 id_activity: 1,
 name_activity: "Traverser la rue en Thailande", 
