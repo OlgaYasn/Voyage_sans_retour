@@ -1,4 +1,4 @@
-export const voyageInfo = [
+export const voyageData = [
   {
     id_activity: 1,
     name_activity: "Traverser la rue en Thailande",
