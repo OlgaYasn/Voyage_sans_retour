@@ -191,3 +191,4 @@ city: "São Paulo",
 price: 2250,
 dangerousity: 9.0,
 },
+]
