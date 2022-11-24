@@ -1,31 +1,32 @@
 .planisphere_img {
     width: 71vw;
+    position:relative;
     height: auto;
     padding: 1.5vw;
 }
 
 .argentine {
-    width: 7vmin;
+    width: 3vw;
     position: absolute;
-    top: 80vmin;
-    left: 48vmin;
+    top: 73vh;
+    left: 22vw;
     background-color: aqua;
 
 }
 
 .bolivie {
-    width: 7vmin;
+    width: 3vw;
     position: absolute;
-    top: 73vmin;
-    left: 44vmin;
+    top: 66vh;
+    left: 20.5vw;
     background-color: red;
 }
 
 .bresil {
-    width: 7vmin;
+    width: 3vw;
     position: absolute;
-    top: 70vmin;
-    left: 52vmin;
+    top: 64vh;
+    left: 24vw;
     background-color: green;
 }
 
