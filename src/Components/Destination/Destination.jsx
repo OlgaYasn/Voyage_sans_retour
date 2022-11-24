@@ -4,9 +4,12 @@ import "./Destination.css";
 
 const Destination = () => {
     return (
-        <div>
+        <div className='cardList'>
             <h1>Destination</h1> 
+            <p>titre</p>
+            <p>dangerosité</p>
             <DestinationDetails />
+            
         </div>
     );
 };

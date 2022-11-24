@@ -4,9 +4,9 @@ import "./Navbar.css";
 
 const Navbar = () => {
     return (
-        <div>
+        <div className='navBar'>
             <h1>Navbar</h1>
-            <Reservation />
+            
         </div>
     );
 };

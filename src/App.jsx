@@ -7,7 +7,6 @@ import Intro from './Pages/IntroPage/Intro'
 function App() {
   return (
     <div className="App">
-      <h1>Voyage sans retour ?</h1>
       <Intro />
       <Home />
       

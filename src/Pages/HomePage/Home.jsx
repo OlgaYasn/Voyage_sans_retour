@@ -6,10 +6,10 @@ import "./Home.css";
 
 const Home = () => {
     return (
-        <div>
-            <h1>Home</h1>
-            <Destination />
+        <div className='homeStyle'>
+            <h1>Voyage sans retour</h1>
             <Navbar />
+            <Destination />
             <Planisphere />
         </div>
     );
