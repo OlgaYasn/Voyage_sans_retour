@@ -3,8 +3,8 @@ import "./Planisphere.css"
 
 const Planisphere = () => {
     return (
-        <div>
-            
+        <div className='planisphere_img'>
+            <img src="/src/assets/logos/map.png" alt="" />
         </div>
     );
 };

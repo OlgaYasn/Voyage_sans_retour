@@ -7,9 +7,7 @@ const Destination = () => {
         <div className='cardList'>
             <h1>Destination</h1> 
             <p>titre</p>
-            <p>dangerosité</p>
-            <DestinationDetails />
-            
+            <p>dangerosité</p>    
         </div>
     );
 };
