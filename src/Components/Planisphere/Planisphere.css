@@ -1,1 +1,7 @@
-
+.argentina {
+    width: 30px;
+    position: absolute;
+    top: 725px;
+    left: 450px;
+    background-color: red;
+}
