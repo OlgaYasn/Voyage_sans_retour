@@ -1,13 +1,25 @@
 import React from 'react';
-import Reservation from '../Reservation/Reservation';
+import { Link } from 'react-router-dom';
 import "./Navbar.css";
 
 const Navbar = () => {
     return (
-        <div className='navBar'>
-            <h1>Reservations</h1>
-            
-        </div>
+  <div className='navbar'>
+    <div className='navbar__container'>
+      <Link to="/">
+        <img
+          className="navbar__img"
+          src="src/assets/logos/logo-inline-white.png"
+          alt="image intro"
+        />
+        </Link>
+        <img
+          className="navbar__img__valise"
+          src="src/assets/logos/valise01-violet.png"
+          alt="image intro"
+        />
+    </div>
+  </div>
     );
 };
 

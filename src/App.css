@@ -17,9 +17,7 @@
 }
 h1{
     font-family: var(--font-title);
-    color: white;
 }
 h2 {
     font-family: var(--font-text);
-    color: white;
 }

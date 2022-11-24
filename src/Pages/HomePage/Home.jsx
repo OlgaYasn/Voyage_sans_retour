@@ -5,15 +5,15 @@ import Navbar from '../../Components/Navbar/Navbar'
 import Planisphere from '../../Components/Planisphere/Planisphere'
 import './Home.css'
 
-const Home = () => {
+const Home = (userInput, handleChange) => {
   return (
     <div>
-          <Navbar />
-            <div className='main_section'>
-            <Planisphere />
-              <Destination />
-            </div>
-          <DestinationDetails />
+      <Navbar userInput={userInput} handleChange={handleChange} />
+      <div className="main_section">
+        <Planisphere />
+        <Destination />
+      </div>
+      <DestinationDetails />
     </div>
   )
 }
