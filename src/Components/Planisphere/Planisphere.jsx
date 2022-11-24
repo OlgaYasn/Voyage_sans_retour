@@ -1,16 +1,16 @@
 import React from 'react';
 import "./Planisphere.css";
-import Countries from "../../utils/voyageDetails";
+// import voyageDetails from "../../utils/voyageDetails";
 
 
 const Planisphere = () => {
-    console.log(Countries.name)
+    // console.log(voyageDetails)
     return (
         <div className='planisphere_img'>
             <img src="/src/assets/logos/map.png" alt="" />
-            <div>{Countries.map((country) => (
+            {/* <div>{Countries.map((country) => (
                 <img key={country.id} className={country.className} src="src/assets/logos/valise01-black.png" alt={country.name} />))}
-            </div>
+            </div> */}
         </div>
     );
 };
