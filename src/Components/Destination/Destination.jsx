@@ -4,7 +4,7 @@ import "./Destination.css";
 
 const Destination = () => {
     return (
-        <div className='cardList'>
+        <div className="cardList">
             <h1>Destination</h1> 
             <p>titre</p>
             <p>dangerosité</p>    

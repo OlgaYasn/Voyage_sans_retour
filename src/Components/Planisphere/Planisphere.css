@@ -1,4 +1,10 @@
-.argentina {
+.planisphere_img {
+    width: 71vw;
+    height: auto;
+    padding: 1.5vw;
+}
+
+.argentine {
     width: 30px;
     position: absolute;
     top: 725px;
