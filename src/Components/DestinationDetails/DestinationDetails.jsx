@@ -3,8 +3,14 @@ import "./DestinationDetails.css";
 
 const DestinationDetails = () => {
     return (
-        <div>
-            <h1>Destination Details</h1>
+        <div className='cardDetail'>
+            <h1>Titre</h1>
+            <p>Description</p>
+            <p>Guide</p>
+            <p>Dangerosité</p>
+            <p>age reco</p>
+            <p>prix</p>
+            <p>pays + ville</p>
         </div>
     );
 };
