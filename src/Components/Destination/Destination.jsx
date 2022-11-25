@@ -15,7 +15,7 @@ const Destination = () => {
 
   return (
     <div className="cardList">
-      <h1>Destination</h1>
+      <h1>💥 DESTINATIONS 💥</h1>
       <form className="country_select">
         <label htmlFor="country_select">
           <select id="country_select" onChange={handleChange}>

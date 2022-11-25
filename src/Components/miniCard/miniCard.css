@@ -12,6 +12,8 @@ font-family: var(--font-text);
 
 .miniCard_title {
     font-family: var(--font-title);
+    color: var(--color-violet);
+    font-size: 1.2rem;
 }
 
 .card_logo {
