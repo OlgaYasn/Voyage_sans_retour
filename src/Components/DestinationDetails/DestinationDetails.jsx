@@ -1,12 +1,14 @@
 import React from 'react'
 import './DestinationDetails.css'
+import PropTypes from "prop-types";
 import { voyageData } from '../../utils/voyageData'
 import DestinationCardDetails from './DestinationCardDetails'
 
-const DestinationDetails = () => {
+const DestinationDetails = ({ activityName }) => {
   return (
     <div>
-      {voyageData.map((element) => (
+      {voyageData.filter((el)=> el.name_activity == activityName)
+      .map((element) => (
         <div key={element.id_activity}>
           <DestinationCardDetails
             activity={element.name_activity}
@@ -25,4 +27,7 @@ const DestinationDetails = () => {
   )
 }
 
+DestinationDetails.propTypes = {
+  activityName: PropTypes.func.isRequired,
+};
 export default DestinationDetails
