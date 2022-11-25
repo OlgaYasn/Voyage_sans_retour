@@ -3,14 +3,16 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 5vh;
+    height: 8vh;
+    background-image: "../src/assets/Favelas.jpeg";
 }
 
 .navbar__img {
     position: relative;
     width: 25%;
     height: 25%;
-    margin-top: 0.5rem;
+    margin-top: 3vh;
+    margin-left: 3vw;
 }
 
 .navbar__img__valise {
