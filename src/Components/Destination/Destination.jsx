@@ -5,15 +5,17 @@ import { voyageDetails } from '../../utils/voyageDetails'
 import PropTypes from "prop-types";
 import './Destination.css'
 
-const Destination = ({ setActivityName }) => {
-  const [selectCountry, setSelectCountry] = useState('')
+const Destination = ({setActivityName}) => {
+
+  const [selectCountry, setSelectCountry] = useState("");
+  
 
   const handleChange = (e) => {
     setSelectCountry(e.target.value)
   }
 
   const handleClick = (el) => {
-    setActivityName(el.target.innerText)
+      setActivityName(el.target.innerText)
   }
 
   return (
@@ -40,8 +42,8 @@ const Destination = ({ setActivityName }) => {
 
           .map((element) => (
             <li key={element.id_activity} className="country_details">
-              <button type="button" onClick={handleClick}>
-                <MiniCard activity={element.name_activity} />
+              <button className='button_benjamin' type="button" onClick={handleClick}>
+                <MiniCard activity={element.name_activity} picto={element.picto} />
               </button>
             </li>
           ))}

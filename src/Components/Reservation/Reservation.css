@@ -2,6 +2,14 @@
   margin-top: 4vh;
 }
 
+.check_panier-reservation {
+  width: 80px;
+  height: auto;
+  position:absolute;
+  left: 95.5vw;
+  top: -0.95vh;
+}
+
 .reservation__title {
   color: white;
   display: flex;

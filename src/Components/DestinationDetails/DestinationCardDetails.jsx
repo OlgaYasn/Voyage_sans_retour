@@ -23,8 +23,8 @@ const handlePopUp = () => {
   const [cancelButton, setCancelButton] = useState(true)
 
   const handleClick = () => {
-    setCancelButton(!cancelButton)
-  }
+    setCancelButton(!cancelButton);
+  };
 
 
   return (
@@ -40,6 +40,7 @@ const handlePopUp = () => {
             />
           }
     <div className="cardDetail">
+      {/* <img className = "cancelButton" onClick={handleClick} src="src/assets/logos/cancel.png" alt="logo" /> */}
       <img className="PictureDetails" src={image} />
       <h1 className="NameActivity">{activity}</h1>
      <img onClick={handlePopUp} className="Buy" src="./src/assets/logos/valise-white.png" />
@@ -59,8 +60,8 @@ const handlePopUp = () => {
         </div>
       )}
     </div>
-  )
-}
+  );
+};
 DestinationCardDetails.propTypes = {
   activity: PropTypes.func.isRequired,
   description: PropTypes.func.isRequired,
@@ -71,5 +72,5 @@ DestinationCardDetails.propTypes = {
   city: PropTypes.func.isRequired,
   price: PropTypes.arrayOf.isRequired,
   dangerosity: PropTypes.arrayOf.isRequired,
-}
-export default DestinationCardDetails
+};
+export default DestinationCardDetails;

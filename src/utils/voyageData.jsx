@@ -12,6 +12,7 @@ export const voyageData = [
     price: 80,
     dangerosity: 7.8,
     country_id: 18,
+    picto: "src/assets/picto/7.8.png",
   },
   {
     id_activity: 2,
@@ -26,6 +27,7 @@ export const voyageData = [
     price: 2500,
     dangerosity: 9.1,
     country_id: 8,
+    picto: "src/assets/picto/9.1.png",
   },
   {
     id_activity: 3,
@@ -40,6 +42,7 @@ export const voyageData = [
     price: 3800,
     dangerosity: 9.3,
     country_id: 13,
+    picto: "src/assets/picto/9.3.png",
   },
   {
     id_activity: 4,
@@ -54,6 +57,7 @@ export const voyageData = [
     price: 10,
     dangerosity: 8.6,
     country_id: 3,
+    picto: "src/assets/picto/8.6.png",
   },
   {
     id_activity: 5,
@@ -68,6 +72,7 @@ export const voyageData = [
     price: 250,
     dangerosity: 7.9,
     country_id: 16,
+    picto: "src/assets/picto/7.9.png",
   },
   {
     id_activity: 6,
@@ -83,6 +88,7 @@ export const voyageData = [
     price: 20,
     dangerosity: 5.8,
     country_id: 2,
+    picto: "src/assets/picto/5.8.png",
   },
   {
     id_activity: 7,
@@ -97,6 +103,7 @@ export const voyageData = [
     price: 15,
     dangerosity: 7.1,
     country_id: 8,
+    picto: "src/assets/picto/7.1.png",
   },
   {
     id_activity: 8,
@@ -111,6 +118,7 @@ export const voyageData = [
     price: 50,
     dangerosity: 7.3,
     country_id: 14,
+    picto: "src/assets/picto/7.3.png",
   },
   {
     id_activity: 9,
@@ -125,6 +133,7 @@ export const voyageData = [
     price: 300,
     dangerosity: 7.5,
     country_id: 18,
+    picto: "src/assets/picto/7.5.png",
   },
   {
     id_activity: 10,
@@ -139,6 +148,7 @@ export const voyageData = [
     price: 180,
     dangerosity: 7.3,
     country_id: 11,
+    picto: "src/assets/picto/7.3.png",
   },
   {
     id_activity: 11,
@@ -153,6 +163,7 @@ export const voyageData = [
     price: 125,
     dangerosity: 7.0,
     country_id: 5,
+    picto: "src/assets/picto/7.0.png",
   },
   {
     id_activity: 12,
@@ -167,6 +178,7 @@ export const voyageData = [
     price: 250,
     dangerosity: 8.5,
     country_id: 19,
+    picto: "src/assets/picto/8.5.png",
   },
   {
     id_activity: 13,
@@ -181,6 +193,7 @@ export const voyageData = [
     price: 150,
     dangerosity: 8.7,
     country_id: 17,
+    picto: "src/assets/picto/8.7.png",
   },
   {
     id_activity: 14,
@@ -195,6 +208,7 @@ export const voyageData = [
     price: 300,
     dangerosity: 8.7,
     country_id: 12,
+    picto: "src/assets/picto/8.7.png",
   },
   {
     id_activity: 15,
@@ -209,6 +223,7 @@ export const voyageData = [
     price: 7500,
     dangerosity: 10,
     country_id: 7,
+    picto: "src/assets/picto/10.png",
   },
   {
     id_activity: 16,
@@ -223,6 +238,7 @@ export const voyageData = [
     price: 2250,
     dangerosity: 9.0,
     country_id: 3,
+    picto: "src/assets/picto/9.png",
   },
   {
     id_activity: 17,
@@ -237,6 +253,7 @@ export const voyageData = [
     price: 5130,
     dangerosity: 9.1,
     country_id: 9,
+    picto: "src/assets/picto/9.1.png",
   },
   {
     id_activity: 18,
@@ -251,6 +268,7 @@ export const voyageData = [
     price: 568,
     dangerosity: 8.2,
     country_id: 19,
+    picto: "src/assets/picto/8.2.png",
   },
   {
     id_activity: 19,
@@ -265,6 +283,7 @@ export const voyageData = [
     price: 369,
     dangerosity: 8.2,
     country_id: 6,
+    picto: "src/assets/picto/8.2.png",
   },
   {
     id_activity: 20,
@@ -279,6 +298,7 @@ export const voyageData = [
     price: 10,
     dangerosity: 7.2,
     country_id: 20,
+    picto: "src/assets/picto/7.2.png",
   },
   {
     id_activity: 21,
@@ -293,6 +313,7 @@ export const voyageData = [
     price: 30,
     dangerosity: 6.2,
     country_id: 4,
+    picto: "src/assets/picto/6.2.png",
   },
   {
     id_activity: 22,
@@ -307,6 +328,7 @@ export const voyageData = [
     price: 150,
     dangerosity: 6.5,
     country_id: 10,
+    picto: "src/assets/picto/6.5.png",
   },
   {
     id_activity: 23,
@@ -321,6 +343,7 @@ export const voyageData = [
     price: 880,
     dangerosity: 8.7,
     country_id: 7,
+    picto: "src/assets/picto/8.7.png",
   },
   {
     id_activity: 24,
@@ -335,6 +358,7 @@ export const voyageData = [
     price: 250,
     dangerosity: 4.7,
     country_id: 7,
+    picto: "src/assets/picto/4.7.png",
   },
   {
     id_activity: 25,
@@ -349,6 +373,7 @@ export const voyageData = [
     price: 980,
     dangerosity: 8.9,
     country_id: 15,
+    picto: "src/assets/picto/8.9.png",
   },
   {
     id_activity: 26,
@@ -363,6 +388,7 @@ export const voyageData = [
     price: 15,
     dangerosity: 7.2,
     country_id: 7,
+    picto: "src/assets/picto/7.2.png",
   },
   {
     id_activity: 27,
@@ -377,6 +403,7 @@ export const voyageData = [
     price: 75,
     dangerosity: 6.8,
     country_id: 7,
+    picto: "src/assets/picto/6.8.png",
   },
   {
     id_activity: 28,
@@ -391,6 +418,7 @@ export const voyageData = [
     price: 1645,
     dangerosity: 9.5,
     country_id: 7,
+    picto: "src/assets/picto/9.5.png",
   },
   {
     id_activity: 29,
@@ -405,6 +433,7 @@ export const voyageData = [
     price: 50,
     dangerosity: 7.2,
     country_id: 7,
+    picto: "src/assets/picto/7.2.png",
   },
   {
     id_activity: 30,
@@ -420,6 +449,7 @@ export const voyageData = [
     price: 86,
     dangerosity: 7.8,
     country_id: 1,
+    picto: "src/assets/picto/7.8.png",
   },
   {
     id_activity: 31,
@@ -434,11 +464,13 @@ export const voyageData = [
     price: 50,
     dangerosity: 1,
     country_id: 7,
+    picto: "src/assets/picto/1.0.png",
   },
   {
     id_activity: 32,
     name_activity: "Manger du fugu",
-    description: "Vous aimez des sushis ? Vous devez goûter le fugu ! C’est un poisson toxique qui ne peut être servi au Japon que dans les restaurants disposant d’un maître fugu qualifié. Notre maître fugu étant en arrêt maladie, on a fait appel à son stagiaire Jonathan. Ca devrait être tout aussi bon !",
+    description:
+      "Vous aimez des sushis ? Vous devez goûter le fugu ! C’est un poisson toxique qui ne peut être servi au Japon que dans les restaurants disposant d’un maître fugu qualifié. Notre maître fugu étant en arrêt maladie, on a fait appel à son stagiaire Jonathan. Ca devrait être tout aussi bon !",
     age_recommended: "18-70",
     name_guide: "Phoebe Buffay",
     image: "src/assets/images/Fugu.png",
@@ -447,6 +479,7 @@ export const voyageData = [
     price: 250,
     dangerosity: 8.5,
     country_id: 10,
+    picto: "src/assets/picto/8.5.png",
   },
   {
     id_activity: 33,
@@ -461,5 +494,6 @@ export const voyageData = [
     price: 45,
     dangerosity: 8.5,
     country_id: 20,
+    picto: "src/assets/picto/8.5.png",
   },
 ];
