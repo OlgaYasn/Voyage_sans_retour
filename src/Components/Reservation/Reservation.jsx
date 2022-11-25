@@ -1,8 +1,15 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
+import PopUpReservation from "./PopUpReservation";
 import "./Reservation.css";
+import { useState } from "react";
 
 const Reservation = () => {
+  const [newPopop, setNewPopop] = useState(false);
+
+  const handleClick = () => {
+    setNewPopop(!newPopop)
+  };
   return (
     <div>
       <Navbar />
@@ -97,11 +104,13 @@ const Reservation = () => {
             </form>
           </div>
           <button
+            onClick={handleClick}
             type="button"
             className="btn btn--primary btn--inside uppercase"
           >
             Réservez
           </button>
+          {newPopop && <PopUpReservation />}
         </div>
       </div>
     </div>
