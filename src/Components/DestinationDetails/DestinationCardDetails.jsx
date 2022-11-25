@@ -20,21 +20,38 @@ const DestinationCardDetails = ({
   }
 
   return (
-    <div className="cardDetail">
-      <img className="PictureDetails" src={image} />
-      <h1 className="NameActivity">{activity}</h1>
-      <img className="Buy" src="./src/assets/logos/valise-white.png" />
-      <p className="DescriptionActivity">{description}</p>
-      <p className="Guide">Votre guide : {guide}</p>
-      <div className="FuckingDangerosity">
-        <img className="pictoDead" src="./src/assets/logos/pictoDead.png" />
-        <p>Taux de dangerosité : {dangerosity}</p>
-      </div>
-      <p className="Age">Age recommandé : {age} ans</p>
-      <p className="Price">{price} €</p>
-      <p className="Country">
-        {country} / {city}
-      </p>
+    <div className="cardDetail__container">
+      {cancelButton && (
+        <div>
+          {
+            <img
+              className="cancelButton"
+              onClick={handleClick}
+              src="src/assets/logos/cancel.png"
+              alt="logo"
+            />
+          }
+          <div className="cardDetail">
+            <img className="PictureDetails" src={image} />
+            <h1 className="NameActivity">{activity}</h1>
+            <img className="Buy" src="./src/assets/logos/valise-white.png" />
+            <p className="DescriptionActivity">{description}</p>
+            <p className="Guide">Votre guide : {guide}</p>
+            <div className="FuckingDangerosity">
+              <img
+                className="pictoDead"
+                src="./src/assets/logos/pictoDead.png"
+              />
+              <p>Taux de dangerosité : {dangerosity}</p>
+            </div>
+            <p className="Age">Age recommandé : {age} ans</p>
+            <p className="Price">{price} €</p>
+            <p className="Country">
+              {country} / {city}
+            </p>
+          </div>
+        </div>
+      )}
     </div>
   )
 }

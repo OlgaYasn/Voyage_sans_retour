@@ -83,5 +83,7 @@
 }
 
 .cancelButton {
+    position: absolute;
     width: 20px;
+    grid-area: 1 / 1 / 2 / 2;
 }
