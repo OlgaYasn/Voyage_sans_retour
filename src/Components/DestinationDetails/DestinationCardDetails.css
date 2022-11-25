@@ -13,6 +13,7 @@
 }
 
 .NameActivity {
+    font-family: var(--font-title);
     margin-left: 2vw;
     grid-area: 1 / 2 / 2 / 5;
     color: #bf00bf;
@@ -24,12 +25,14 @@
 }
 
 .DescriptionActivity {
+    font-family: var(--font-text);
     margin-left: 2vw;
     grid-area: 2 / 2 / 3 / 6;
     color: white;
 }
 
 .Guide {
+    font-family: var(--font-text);
     margin-left: 2vw;
     grid-area: 5 / 2 / 6 / 4;
     color: white;
@@ -37,6 +40,7 @@
 }
 
 .FuckingDangerosity {
+    font-family: var(--font-text);
     display: flex;
     flex-direction: row;
     grid-area: 4 / 2 / 5 / 4;
@@ -44,16 +48,20 @@
 }
 
 .Age {
+    font-family: var(--font-text);
     grid-area: 3 / 4 / 4 / 6;
     color: white;
 }
 
 .Price {
+    font-family: var(--font-text);
+    font-size: 6vh;
     grid-area: 5 / 5 / 6 / 6;
     color: #bf00bf;
 }
 
 .Country {
+    font-family: var(--font-text);
     margin-left: 2vw;
     grid-area: 3 / 2 / 4 / 4;
     color: white;

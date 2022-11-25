@@ -6,11 +6,12 @@ import "./Destination.css";
 
 const Destination = () => {
 
-    const [selectCountry, setSelectCountry] = useState("");
+  const [selectCountry, setSelectCountry] = useState("");
+  
 
-    const handleChange = (e) => {
-        setSelectCountry(e.target.value)
-    }
+  const handleChange = (e) => {
+    setSelectCountry(e.target.value)
+  }
 
   return (
     <div className="cardList">
@@ -28,18 +29,18 @@ const Destination = () => {
         </label>
       </form>
       <ul className="country_data">
-              {voyageData.filter((element) => 
-                  selectCountry === "" || selectCountry === element.country
-              )
-                  
-                  .map((element) => (
-          <li key={element.id_activity} className="country_details">
-            <MiniCard
-              country={element.country}
-              activity={element.name_activity}
-            />
-          </li>
-        ))}
+        {voyageData.filter((element) =>
+          selectCountry === "" || selectCountry === element.country
+        )
+
+          .map((element) => (
+            <li key={element.id_activity} className="country_details">
+                      <MiniCard
+                          activity={element.name_activity}
+                          country={element.country}
+              />
+            </li>
+          ))}
       </ul>
     </div>
   );
