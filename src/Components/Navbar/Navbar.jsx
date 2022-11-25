@@ -1,9 +1,14 @@
 import React from 'react';
+<<<<<<< HEAD
 import { Link } from 'react-router-dom';
+=======
+import { NavLink } from "react-router-dom";
+>>>>>>> b8487fdca128d2d1f80db9c1bf66e401272e8b21
 import "./Navbar.css";
 
 const Navbar = () => {
     return (
+<<<<<<< HEAD
   <div className='navbar'>
 
       <Link to="/">
@@ -20,6 +25,11 @@ const Navbar = () => {
         />
 
   </div>
+=======
+        <div className='navBar'>
+            <NavLink to="/reservations"><h1>Réservations</h1></NavLink> 
+        </div>
+>>>>>>> b8487fdca128d2d1f80db9c1bf66e401272e8b21
     );
 };
 

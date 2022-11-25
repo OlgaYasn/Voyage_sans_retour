@@ -438,8 +438,7 @@ export const voyageData = [
   {
     id_activity: 32,
     name_activity: "Manger du fugu",
-    description:
-      "Vous aimez des sushis ? Vous devez goûter le fugu ! C’est un poisson toxique qui ne peut être servi au Japon que dans les restaurants disposant d’un maître fugu qualifié. Notre maître fugu étant en arrêt maladie, on a fait appel à son stagiaire Jonathan. Ca devrait être tout aussi bon !",
+    description:"Vous aimez des sushis ? Vous devez goûter le fugu ! C’est un poisson toxique qui ne peut être servi au Japon que dans les restaurants disposant d’un maître fugu qualifié. Notre maître fugu étant en arrêt maladie, on a fait appel à son stagiaire Jonathan. Ca devrait être tout aussi bon !",
     age_recommended: "18-70",
     name_guide: "Phoebe Buffay",
     image: "src/assets/images/fugu.jpg",
