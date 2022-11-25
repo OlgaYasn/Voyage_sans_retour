@@ -41,8 +41,10 @@ const Destination = () => {
 
           .map((element) => (
             <li key={element.id_activity} className="country_details">
-              <button type="button" onClick={handleClick}><MiniCard
-                activity={element.name_activity}
+                  <button type="button" onClick={handleClick}>
+                      <MiniCard
+                          activity={element.name_activity}
+                          country={element.country}
               /></button>
             </li>
           ))}
