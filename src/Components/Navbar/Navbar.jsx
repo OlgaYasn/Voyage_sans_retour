@@ -1,12 +1,11 @@
 import React from 'react';
-import Reservation from '../Reservation/Reservation';
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
     return (
         <div className='navBar'>
-            <h1>Reservations</h1>
-            
+            <NavLink to="/reservations"><h1>Réservations</h1></NavLink> 
         </div>
     );
 };

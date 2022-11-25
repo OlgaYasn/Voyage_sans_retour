@@ -1,6 +1,6 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-import './Intro.css'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import './Intro.css';
 
 const Intro = () => {
   return (
