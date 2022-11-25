@@ -7,16 +7,10 @@ import "./Destination.css";
 const Destination = () => {
 
   const [selectCountry, setSelectCountry] = useState("");
-  const [selectActivity, setSelectActivity] = useState("");
+  
 
   const handleChange = (e) => {
     setSelectCountry(e.target.value)
-  }
-
-  const handleClick = (el) => {
-    //setSelectActivity(el.target.value)
-    console.log(el.target.innerText
-    )
   }
 
   return (
@@ -41,11 +35,10 @@ const Destination = () => {
 
           .map((element) => (
             <li key={element.id_activity} className="country_details">
-                  <button type="button" onClick={handleClick}>
                       <MiniCard
                           activity={element.name_activity}
                           country={element.country}
-              /></button>
+              />
             </li>
           ))}
       </ul>
