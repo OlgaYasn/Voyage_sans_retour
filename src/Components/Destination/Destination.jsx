@@ -7,7 +7,6 @@ import "./Destination.css";
 const Destination = () => {
 
   const [selectCountry, setSelectCountry] = useState("");
-  const [selectActivity, setSelectActivity] = useState("");
 
   const handleChange = (e) => {
     setSelectCountry(e.target.value)
