@@ -20,8 +20,25 @@ const [popUp, setPopUp] = useState(false);
 const handlePopUp = () => {
   setPopUp(!popUp)
 }
+  const [cancelButton, setCancelButton] = useState(true)
+
+  const handleClick = () => {
+    setCancelButton(!cancelButton)
+  }
+
 
   return (
+        <div className="cardDetail__container">
+      {cancelButton && (
+        <div>
+          {
+            <img
+              className="cancelButton"
+              onClick={handleClick}
+              src="src/assets/logos/cancel.png"
+              alt="logo"
+            />
+          }
     <div className="cardDetail">
       <img className="PictureDetails" src={image} />
       <h1 className="NameActivity">{activity}</h1>
@@ -37,7 +54,10 @@ const handlePopUp = () => {
       <p className="Price">{price} €</p>
       <p className="Country">
         {country} / {city}
-      </p>
+           </p>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
