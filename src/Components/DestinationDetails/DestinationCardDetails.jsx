@@ -35,5 +35,15 @@ const DestinationCardDetails = ({ activity, description, age, guide, image, coun
         
     );
 }
-
-export default DestinationCardDetails;
+DestinationCardDetails.propTypes = {
+  activity: PropTypes.func.isRequired,
+  description: PropTypes.func.isRequired,
+  age: PropTypes.func.isRequired,
+  guide: PropTypes.arrayOf.isRequired,
+  image: PropTypes.func.isRequired,
+  country: PropTypes.func.isRequired,
+  city: PropTypes.func.isRequired,
+  price: PropTypes.arrayOf.isRequired,
+  dangerosity: PropTypes.arrayOf.isRequired,
+};
+export default DestinationCardDetails

@@ -12,18 +12,15 @@ const Navbar = () => {
           alt="image intro"
         />
       </Link>
-      <img
-        className="navbar__img__valise"
-        src="src/assets/logos/valise-white.png"
-        alt="image intro"
-      />
-      <div className="navBar">
-        <Link to="/reservations">
-          <h1 className='navbar_title'>Réservations</h1>
-        </Link>
-      </div>
+      <Link className='link__valise' to="/reservations">
+        <img
+          className="navbar__img__valise"
+          src="src/assets/logos/valise-white.png"
+          alt="image intro"
+        />{" "}
+      </Link>
     </div>
-  )
+  );
 }
 
 export default Navbar
