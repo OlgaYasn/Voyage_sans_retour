@@ -10,7 +10,6 @@
     position: relative;
     bottom: 22vh;
     left: 22vw;
-    background-color: aqua;
 }
 
 .bolivie {
@@ -18,7 +17,6 @@
     position: relative;
     bottom: 28vh;
     left: 17vw;
-    background-color: red;
 }
 
 .bresil {
@@ -26,22 +24,21 @@
     position: relative;
     bottom: 29vh;
     left: 18vw;
-    background-color: green;
 }
 
 .cambodge {
     width: 3vw;
     position: relative;
-    top: 70vmin;
-    left: 52vmin;
-    background-color: green;
+    bottom: 50vh;
+    left: vw;
+    background-color: red;
 }
 
 .emirats_arabes_unis {
     width: 3vw;
     position: relative;
-    top: 70vmin;
-    left: 52vmin;
+    bottom: 29vh;
+    left: 18vw;
     background-color: green;
 }
 
