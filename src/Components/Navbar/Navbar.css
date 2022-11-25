@@ -1,4 +1,5 @@
 .navbar {
+    width:100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -11,16 +12,27 @@
     position: relative;
     width: 25%;
     height: 25%;
-    margin-top: 3vh;
-    margin-left: 3vw;
+    margin-top: 0.5rem;
+    margin-left: 40px;
 }
 
 .navbar__img__valise {
     position: relative;
-    width: 5%;
+    width: 15%;
     margin-bottom: 0.3rem;
 }
 
 a {
     position: relative;
+}
+
+a .navbar__img__valise {
+    position: relative;
+    display: flex;
+    justify-content: center;
+} 
+
+.navbar_title {
+    color: white;
+    margin-right: 40px;
 }
