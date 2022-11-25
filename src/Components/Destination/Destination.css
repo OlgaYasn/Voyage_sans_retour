@@ -1,12 +1,16 @@
 .cardList {
     flex-shrink: 0;
     width: 23vw;
-    background-color: rgb(209, 209, 226);
+    box-shadow: 0px 0px 40px 5px #bf00bf;
     padding: 1.5vw;
+    height: 70vh;
+}
+
+.cardList h1 {
+    display: flex;
+    justify-content: center;
 }
     
-    
-
 .country_select {
     display: flex;
     justify-content: center;
@@ -14,6 +18,15 @@
 
 .country_data li {
     display: flex;
-    justify-content: center;
-    background-color: blueviolet;
+    flex-direction: column;
+    background-color: #bf00bf;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.country_data {
+    overflow: scroll;
+    height: 60vh;
+    margin-top: 10px;
+    
 }

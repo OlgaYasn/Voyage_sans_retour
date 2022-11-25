@@ -11,6 +11,7 @@ export const voyageData = [
     city: "Bangkok",
     price: 80,
     dangerosity: 7.8,
+    country_id: 18,
   },
   {
     id_activity: 2,
@@ -24,6 +25,7 @@ export const voyageData = [
     city: "Himalaya",
     price: 2500,
     dangerosity: 9.1,
+    country_id: 8,
   },
   {
     id_activity: 3,
@@ -37,6 +39,7 @@ export const voyageData = [
     city: "Katmandou",
     price: 3800,
     dangerosity: 9.3,
+    country_id: 13,
   },
   {
     id_activity: 4,
@@ -50,6 +53,7 @@ export const voyageData = [
     city: "Rio de Janeiro",
     price: 10,
     dangerosity: 8.6,
+    country_id: 3,
   },
   {
     id_activity: 5,
@@ -63,6 +67,7 @@ export const voyageData = [
     city: "Moscou",
     price: 250,
     dangerosity: 7.9,
+    country_id: 16,
   },
   {
     id_activity: 6,
@@ -77,6 +82,7 @@ export const voyageData = [
     city: "La Paz",
     price: 20,
     dangerosity: 5.8,
+    country_id: 2,
   },
   {
     id_activity: 7,
@@ -90,6 +96,7 @@ export const voyageData = [
     city: "New Delhi",
     price: 15,
     dangerosity: 7.1,
+    country_id: 8,
   },
   {
     id_activity: 8,
@@ -103,6 +110,7 @@ export const voyageData = [
     city: "Amsterdam",
     price: 50,
     dangerosity: 7.3,
+    country_id: 14,
   },
   {
     id_activity: 9,
@@ -116,6 +124,7 @@ export const voyageData = [
     city: "Chonburi",
     price: 300,
     dangerosity: 7.5,
+    country_id: 18,
   },
   {
     id_activity: 10,
@@ -129,6 +138,7 @@ export const voyageData = [
     city: "Casablanca",
     price: 180,
     dangerosity: 7.3,
+    country_id: 11,
   },
   {
     id_activity: 11,
@@ -142,6 +152,7 @@ export const voyageData = [
     city: "Dubaï",
     price: 125,
     dangerosity: 7.0,
+    country_id: 5,
   },
   {
     id_activity: 12,
@@ -155,6 +166,7 @@ export const voyageData = [
     city: "Parc National Yosemite",
     price: 250,
     dangerosity: 8.5,
+    country_id: 19,
   },
   {
     id_activity: 13,
@@ -168,6 +180,7 @@ export const voyageData = [
     city: "Rangiroa",
     price: 150,
     dangerosity: 8.7,
+    country_id: 17,
   },
   {
     id_activity: 14,
@@ -177,10 +190,11 @@ export const voyageData = [
     age_recommended: "70+",
     name_guide: "Michael Scott",
     image: "src/assets/images/safari.jpeg",
-    country: "Namibi",
+    country: "Namibie",
     city: "Windhoek",
     price: 300,
     dangerosity: 8.7,
+    country_id: 12,
   },
   {
     id_activity: 15,
@@ -194,6 +208,7 @@ export const voyageData = [
     city: "Bordeaux",
     price: 7500,
     dangerosity: 10,
+    country_id: 7,
   },
   {
     id_activity: 16,
@@ -207,6 +222,7 @@ export const voyageData = [
     city: "São Paulo",
     price: 2250,
     dangerosity: 9.0,
+    country_id: 3,
   },
   {
     id_activity: 17,
@@ -220,6 +236,7 @@ export const voyageData = [
     city: "Ile d'Elbe",
     price: 5130,
     dangerosity: 9.1,
+    country_id: 9,
   },
   {
     id_activity: 18,
@@ -233,6 +250,7 @@ export const voyageData = [
     city: "Dallas",
     price: 568,
     dangerosity: 8.2,
+    country_id: 19,
   },
   {
     id_activity: 19,
@@ -246,6 +264,7 @@ export const voyageData = [
     city: "Pampelune",
     price: 369,
     dangerosity: 8.2,
+    country_id: 6,
   },
   {
     id_activity: 20,
@@ -259,6 +278,7 @@ export const voyageData = [
     city: "Ho Chi Minh",
     price: 10,
     dangerosity: 7.2,
+    country_id: 20,
   },
   {
     id_activity: 21,
@@ -272,6 +292,7 @@ export const voyageData = [
     city: "Phnom Penh",
     price: 30,
     dangerosity: 6.2,
+    country_id: 4,
   },
   {
     id_activity: 22,
@@ -285,6 +306,7 @@ export const voyageData = [
     city: "Tokyo",
     price: 150,
     dangerosity: 6.5,
+    country_id: 10,
   },
   {
     id_activity: 23,
@@ -298,6 +320,7 @@ export const voyageData = [
     city: "La Réunion",
     price: 880,
     dangerosity: 8.7,
+    country_id: 7,
   },
   {
     id_activity: 24,
@@ -311,6 +334,7 @@ export const voyageData = [
     city: "Bordeaux",
     price: 250,
     dangerosity: 4.7,
+    country_id: 7,
   },
   {
     id_activity: 25,
@@ -323,7 +347,8 @@ export const voyageData = [
     country: "Portugal",
     city: "Nazaré",
     price: 980,
-    dangerosity: 8.9,
+    dangerosity: 8.9, 
+    country_id: 15,
   },
   {
     id_activity: 26,
@@ -337,6 +362,7 @@ export const voyageData = [
     city: "Paris",
     price: 15,
     dangerosity: 7.2,
+    country_id: 7,
   },
   {
     id_activity: 27,
@@ -350,6 +376,7 @@ export const voyageData = [
     city: "Bordeaux",
     price: 75,
     dangerosity: 6.8,
+    country_id: 7,
   },
   {
     id_activity: 28,
@@ -363,6 +390,7 @@ export const voyageData = [
     city: "Bordeaux",
     price: 1645.48,
     dangerosity: 9.5,
+    country_id: 7,
   },
   {
     id_activity: 29,
@@ -376,6 +404,7 @@ export const voyageData = [
     city: "Marseille",
     price: 50,
     dangerosity: 7.2,
+    country_id: 7,
   },
   {
     id_activity: 30,
@@ -387,9 +416,10 @@ export const voyageData = [
     name_guide: "Phoebe Buffay",
     image: "src/assets/images/foot_bombonera.jpg",
     country: "Argentine",
-    city: "Buneos Aires",
+    city: "Buenos Aires",
     price: 86,
     dangerosity: 7.8,
+    country_id: 1,
   },
   {
     id_activity: 31,
@@ -403,6 +433,7 @@ export const voyageData = [
     city: "Paris",
     price: 50,
     dangerosity: 1,
+    country_id: 7,
   },
   {
     id_activity: 32,
@@ -416,6 +447,7 @@ export const voyageData = [
     city: "Tokyo",
     price: 250,
     dangerosity: 8.5,
+    country_id: 10,
   },
   {
     id_activity: 33,
@@ -429,5 +461,6 @@ export const voyageData = [
     city: "Hanoï",
     price: 45,
     dangerosity: 8.5,
+    country_id: 20,
   },
 ];
