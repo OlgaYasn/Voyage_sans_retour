@@ -81,3 +81,7 @@
     grid-area: 3 / 2 / 4 / 4;
     color: white;
 }
+
+.cancelButton {
+    width: 20px;
+}
