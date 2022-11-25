@@ -27,7 +27,7 @@ export const voyageData = [
     price: 2500,
     dangerosity: 9.1,
     country_id: 8,
-    picto: "src/assets/picto/8.png",
+    picto: "src/assets/picto/9.1.png",
   },
   {
     id_activity: 3,
@@ -238,7 +238,7 @@ export const voyageData = [
     price: 2250,
     dangerosity: 9.0,
     country_id: 3,
-    picto: "src/assets/picto/9.0.png",
+    picto: "src/assets/picto/9.png",
   },
   {
     id_activity: 17,
@@ -464,7 +464,7 @@ export const voyageData = [
     price: 50,
     dangerosity: 1,
     country_id: 7,
-    picto: "src/assets/picto/1.png",
+    picto: "src/assets/picto/1.0.png",
   },
   {
     id_activity: 32,

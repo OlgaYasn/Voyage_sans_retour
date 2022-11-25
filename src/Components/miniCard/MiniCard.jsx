@@ -2,7 +2,7 @@
 import React from 'react'
 import './MiniCard.css'
 
-const MiniCard = ({ activity }) => {
+const MiniCard = ({ activity, picto}) => {
   return (
     <div className="miniCard_display">
       <div className="group_text">
@@ -10,7 +10,7 @@ const MiniCard = ({ activity }) => {
         <p className="miniCard_text">{activity}</p>
       </div>
       <img
-        src="../src/assets/logos/pictoDead.png"
+        src={picto}
         alt="image"
         className="card_logo"
       />
