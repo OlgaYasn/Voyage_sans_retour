@@ -5,7 +5,7 @@ import "./Navbar.css";
 const Navbar = () => {
     return (
   <div className='navbar'>
-    <div className='navbar__container'>
+
       <Link to="/">
         <img
           className="navbar__img"
@@ -18,7 +18,7 @@ const Navbar = () => {
           src="src/assets/logos/valise01-violet.png"
           alt="image intro"
         />
-    </div>
+
   </div>
     );
 };

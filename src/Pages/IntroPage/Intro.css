@@ -12,18 +12,19 @@ align-items: center;
 }
 .intro__img{
 position: relative;
-width: 40%;
-height: 40%;
+width: 25%;
+height: 25%;
 }
 .intro__container h1{
-margin: 0%;
+margin-top: -6%;
 margin-bottom: 5px;
 color: #FFF;
-font-size: 3rem;
+font-size: 5rem;
 }
 .intro__container h2 {
 margin: 0%;
 color: #FFF;
+font-size: 3rem;
 }
 .btn__intro{
 border-radius: 8px;
@@ -33,7 +34,7 @@ margin: 15px;
 
 .button {
     background: black;
-    margin: 20px auto;
+    margin: 50px auto;
     width: 200px;
     height: 50px;
     overflow: hidden;
@@ -62,10 +63,11 @@ a{
 .btnText {
     color: white;
     transition: .3s;
+    margin: 2.5vh;
 }
 
 .btnText2 {
-    margin-top: 63px;
+    margin-top: 67px;
     margin-right: -130px;
     color: #FFF;
 }

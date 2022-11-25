@@ -1,0 +1,32 @@
+.n {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(src/assets/images/Favelas.jpeg);
+    height: 1vh;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+}
+
+.navbar__img {
+    position: relative;
+    width: 25%;
+    height: 25%;
+    margin-top: 0.5rem;
+}
+
+.navbar__img__valise {
+    position: relative;
+    width: 7%;
+}
+
+a {
+    position: relative;
+}
