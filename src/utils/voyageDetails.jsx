@@ -21,7 +21,7 @@ export const voyageDetails = [
   },
   {
     id: 5,
-    name: "Émirats Arabes Unis",
+    name: "Émirats Arabe Unis",
     className_planisphere: "emirats_arabes_unis",
   },
   {
@@ -66,7 +66,7 @@ export const voyageDetails = [
   },
   {
     id: 14,
-    name: "Pays-bas",
+    name: "Pays-Bas",
     className_planisphere: "pays_bas",
   },
   {
