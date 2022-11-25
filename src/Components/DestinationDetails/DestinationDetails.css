@@ -14,3 +14,14 @@
 .cardActivity {
     margin-left: 5vw;
 }
+.destination__container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 15vh;
+    left: 10vw;
+}
+
+.destination__container:hover {
+    display: none;
+}
