@@ -8,15 +8,16 @@ const Intro = () => {
       <div className="intro__container">
         <img
           className="intro__img"
-          src="src/assets/logos/Avion-casse.png"
+          src="src/assets/logos/logo-intro.png"
           alt="image intro"
         />
-        <h1>Voyage</h1>
-        <h2>sans retour</h2>
         <NavLink className="home" to="/home">
-          <button type="button" className="btn__intro">
-            Prêt à voyager ?
-          </button>
+          <div className="button">
+            <p className="btnText">READY ?</p>
+            <div className="btnTwo">
+              <p className="btnText2">GO!</p>
+            </div>
+          </div>
         </NavLink>
       </div>
     </div>
@@ -24,3 +25,13 @@ const Intro = () => {
 }
 
 export default Intro
+{
+  /* <div id="holder">
+
+<div class="button">
+    <p class="btnText">READY?</p>
+    <div class="btnTwo">
+      <p class="btnText2">GO!</p>
+    </div>
+ </div> */
+}

@@ -1,4 +1,26 @@
-.navBar {
-    background-color: blanchedalmond;
-    width:100%;
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    background-image: "../src/assets/Favelas.jpeg";
+}
+
+.navbar__img {
+    position: relative;
+    width: 25%;
+    height: 25%;
+    margin-top: 3vh;
+    margin-left: 3vw;
+}
+
+.navbar__img__valise {
+    position: relative;
+    width: 5%;
+    margin-bottom: 0.3rem;
+}
+
+a {
+    position: relative;
 }

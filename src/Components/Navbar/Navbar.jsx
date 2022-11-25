@@ -1,13 +1,29 @@
-import React from 'react';
-import { NavLink } from "react-router-dom";
-import "./Navbar.css";
+import React from 'react'
+import { Link } from 'react-router-dom'
+import './Navbar.css'
 
 const Navbar = () => {
-    return (
-        <div className='navBar'>
-            <NavLink to="/reservations"><h1>Réservations</h1></NavLink> 
-        </div>
-    );
-};
+  return (
+    <div className="navbar">
+      <Link to="/">
+        <img
+          className="navbar__img"
+          src="src/assets/logos/logo-inline-white.png"
+          alt="image intro"
+        />
+      </Link>
+      <img
+        className="navbar__img__valise"
+        src="src/assets/logos/valise-white.png"
+        alt="image intro"
+      />
+      <div className="navBar">
+        <Link to="/reservations">
+          <h1>Réservations</h1>
+        </Link>
+      </div>
+    </div>
+  )
+}
 
-export default Navbar;
+export default Navbar
