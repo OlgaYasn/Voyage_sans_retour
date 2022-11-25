@@ -20,7 +20,7 @@ const Destination = ({setActivityName}) => {
 
   return (
     <div className="cardList">
-      <h1>💥 DESTINATIONS 💥</h1>
+      <h1>💥 Destinations 💥</h1>
       <form className="country_select">
         <label htmlFor="country_select">
           <select id="country_select" onChange={handleChange}>
