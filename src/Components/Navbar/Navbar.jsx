@@ -15,7 +15,7 @@ const Navbar = () => {
         </Link>
         <img
           className="navbar__img__valise"
-          src="src/assets/logos/valise01-violet.png"
+          src="src/assets/logos/valise-white.png"
           alt="image intro"
         />
 
