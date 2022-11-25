@@ -1,14 +1,18 @@
 .cardList {
     flex-shrink: 0;
     width: 23vw;
-    box-shadow: 0px 0px 40px 5px #bf00bf;
+    background-color: gray;
     padding: 1.5vw;
     height: 70vh;
+    margin-top: 50px;
+    border-radius: 10px;
+    
 }
 
 .cardList h1 {
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
     
 .country_select {
@@ -19,9 +23,9 @@
 .country_data li {
     display: flex;
     flex-direction: column;
-    background-color: #bf00bf;
-    border: 1px solid black;
+    background-color: #ffffff;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .country_data {
