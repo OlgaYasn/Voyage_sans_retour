@@ -1,25 +1,58 @@
-import React from 'react';
-import "./DestinationCardDetails.css";
+import React from 'react'
+import PropTypes from "prop-types";
+import './DestinationCardDetails.css';
+import { useState } from 'react';
+import PopUp from '../PopUp/PopUp';
 
+const DestinationCardDetails = ({
+  activity,
+  description,
+  age,
+  guide,
+  image,
+  country,
+  city,
+  price,
+  dangerosity,
+}) => {
+const [popUp, setPopUp] = useState(false);
 
-const DestinationCardDetails = ({ activity, description, age, guide, image, country, city, price, dangerosity }) => {
-    return (
-        <div className="cardDetail">
-            <img className="PictureDetails" src={image} />
-            <h1 className="NameActivity">{activity}</h1>
-            <img className="Buy" src="./src/assets/logos/valise-white.png" />
-            <p className="DescriptionActivity">{description}</p>
-            <p className="Guide">Votre guide : {guide}</p>
-            <div className="FuckingDangerosity">
-                <img className="pictoDead" src="./src/assets/logos/pictoDead.png" />
-                <p>Taux de dangerosité : {dangerosity}</p>
-            </div>
-            <p className="Age">Age recommandé : {age} ans</p>
-            <p className="Price">{price} €</p>
-            <p className="Country">{country} / {city}</p>
-
-        </div>
-    )
+const handlePopUp = () => {
+  setPopUp(!popUp)
 }
 
-export default DestinationCardDetails;
+  return (
+    <div className="cardDetail">
+      <img className="PictureDetails" src={image} />
+      <h1 className="NameActivity">{activity}</h1>
+     <img onClick={handlePopUp} className="Buy" src="./src/assets/logos/valise-white.png" />
+      <div>{popUp && <PopUp popUp={popUp}/>}</div>
+      <p className="DescriptionActivity">{description}</p>
+      <p className="Guide">Votre guide : {guide}</p>
+      <div className="FuckingDangerosity">
+        <img
+          className="pictoDead"
+          src="./src/assets/logos/picto-cardDetails.png"
+        />
+        <p>Taux de dangerosité : {dangerosity}</p>
+      </div>
+      <p className="Age">Age recommandé : {age}</p>
+      <p className="Price">{price} €</p>
+      <p className="Country">
+        {country} {city}
+      </p>
+    </div>
+  )
+}
+DestinationCardDetails.propTypes = {
+  activity: PropTypes.func.isRequired,
+  description: PropTypes.func.isRequired,
+  age: PropTypes.func.isRequired,
+  guide: PropTypes.arrayOf.isRequired,
+  image: PropTypes.func.isRequired,
+  country: PropTypes.func.isRequired,
+  city: PropTypes.func.isRequired,
+  price: PropTypes.arrayOf.isRequired,
+  dangerosity: PropTypes.arrayOf.isRequired,
+};
+export default DestinationCardDetails

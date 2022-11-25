@@ -1,16 +1,19 @@
-import React, { useState } from "react";
-import MiniCard from "../miniCard/MiniCard";
-import { voyageData } from "../../utils/voyageData";
-import { voyageDetails } from "../../utils/voyageDetails";
-import "./Destination.css";
+import React, { useState } from 'react'
+import MiniCard from '../miniCard/MiniCard'
+import { voyageData } from '../../utils/voyageData'
+import { voyageDetails } from '../../utils/voyageDetails'
+import PropTypes from "prop-types";
+import './Destination.css'
 
-const Destination = () => {
-
-  const [selectCountry, setSelectCountry] = useState("");
-  
+const Destination = ({ setActivityName }) => {
+  const [selectCountry, setSelectCountry] = useState('')
 
   const handleChange = (e) => {
     setSelectCountry(e.target.value)
+  }
+
+  const handleClick = (el) => {
+    setActivityName(el.target.innerText)
   }
 
   return (
@@ -29,21 +32,26 @@ const Destination = () => {
         </label>
       </form>
       <ul className="country_data">
-        {voyageData.filter((element) =>
-          selectCountry === "" || selectCountry === element.country
-        )
+        {voyageData
+          .filter(
+            (element) =>
+              selectCountry === '' || selectCountry === element.country,
+          )
 
           .map((element) => (
             <li key={element.id_activity} className="country_details">
-                      <MiniCard
-                          activity={element.name_activity}
-                          country={element.country}
-              />
+              <button type="button" onClick={handleClick}>
+                <MiniCard activity={element.name_activity} />
+              </button>
             </li>
           ))}
       </ul>
     </div>
-  );
+  )
+}
+Destination.propTypes = {
+  activityName: PropTypes.func.isRequired,
+  setActivityName: PropTypes.func.isRequired,
 };
 
-export default Destination;
+export default Destination
