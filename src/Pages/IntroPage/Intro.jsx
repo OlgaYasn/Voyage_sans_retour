@@ -1,6 +1,6 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-import './Intro.css'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import './Intro.css';
 
 const Intro = () => {
   return (
@@ -14,9 +14,12 @@ const Intro = () => {
         <h1>Voyage</h1>
         <h2>sans retour</h2>
         <NavLink className="home" to="/home">
-          <button type="button" className="btn__intro">
-            Prêt à voyager ?
-          </button>
+        <div className="button">
+          <p className="btnText">READY ?</p>
+          <div className="btnTwo">
+            <p className="btnText2">GO!</p>
+          </div>
+        </div>
         </NavLink>
       </div>
     </div>
@@ -24,3 +27,13 @@ const Intro = () => {
 }
 
 export default Intro
+{
+  /* <div id="holder">
+
+<div class="button">
+    <p class="btnText">READY?</p>
+    <div class="btnTwo">
+      <p class="btnText2">GO!</p>
+    </div>
+ </div> */
+}
