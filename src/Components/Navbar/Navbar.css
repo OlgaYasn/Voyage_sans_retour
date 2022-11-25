@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     height: 5vh;
+    background-color: grey;
 }
 
 .navbar__img {
@@ -11,6 +12,7 @@
     width: 25%;
     height: 25%;
     margin-top: 0.5rem;
+    margin-left: 40px;
 }
 
 .navbar__img__valise {
@@ -21,4 +23,9 @@
 
 a {
     position: relative;
+}
+
+.navbar_title {
+    color: white;
+    margin-right: 40px;
 }
