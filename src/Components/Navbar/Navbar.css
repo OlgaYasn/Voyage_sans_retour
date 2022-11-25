@@ -26,6 +26,12 @@ a {
     position: relative;
 }
 
+a .navbar__img__valise {
+    position: relative;
+    display: flex;
+    justify-content: center;
+} 
+
 .navbar_title {
     color: white;
     margin-right: 40px;
