@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactPropTypes } from "react";
 import "./PopUp.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -34,5 +35,9 @@ const PopUp = ({ popUp }) => {
     )
   );
 };
+
+PopUp.propTypes = {
+    popUp: ReactPropTypes.func.isRequired,
+  }
 
 export default PopUp;
