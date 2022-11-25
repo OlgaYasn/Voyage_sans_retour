@@ -3,8 +3,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 5vh;
-    background-color: grey;
+    height: 8vh;
+    background-image: "../src/assets/Favelas.jpeg";
 }
 
 .navbar__img {
