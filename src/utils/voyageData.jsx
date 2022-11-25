@@ -18,7 +18,7 @@ export const voyageData = [
     name_activity: "Base Jump pour fêter ses 80 ans",
     description:
       "Vous êtes en quête d'une sensation de liberté ? Coupez tous les liens avec la réalité en sautant dans le vide absolu.",
-    age_recommended: "70+",
+    age_recommended: "+70",
     name_guide: "Luna Lovegood",
     image: "src/assets/images/base_jump.webp",
     country: "Inde",
@@ -32,7 +32,7 @@ export const voyageData = [
     name_activity: "Nouvel An au mont Everest",
     description:
       "L'ascension de l'Everest s'entreprend essentiellement au printemps, avant la mousson, mais ne vous laissez pas la météo de vous décourager. Passez un Nouvel An inoubliable sur les sommets de la montagne emblématique. Revivez l'aventure du film Everest et faites des photos sur les lieux du tournage du film.",
-    age_recommended: "70+",
+    age_recommended: "+70",
     name_guide: "Luna Lovegood",
     image: "src/assets/images/Everest.png",
     country: "Népal",
@@ -103,7 +103,7 @@ export const voyageData = [
     name_activity: "Marcher en déambulateur sur la piste cyclable à Amsterdam",
     description:
       "Il y a 400 km de pistes cyclables dans Amsterdam , on a le droit de prendre les rues à contre-sens, traverser les parcs à vélo et les feux sont réglés de manière à donner la priorité au vélos. D'ailleurs la règle est simple : les vélos ont toujours priorité – ici les cyclistes règnent en maître sur la ville. Tentez le défi de vous balader sur la piste cyclable tout en prenant votre temps.",
-    age_recommended: "70+",
+    age_recommended: "+70",
     name_guide: "Luna Lovegood",
     image: "src/assets/images/Velo-Amsterdam.png",
     country: "Pays-Bas",
@@ -117,7 +117,7 @@ export const voyageData = [
     name_activity: "Courses de buffles d'eau",
     description:
       "Tous les ans à Chonburi, dans l’Est de la Thaïlande, se célèbre une compétition pour rendre hommage aux buffles et exprimer une grande gratitude à ces animaux qui travaillent pour les agriculteurs tout au long de l’année. Assistez à ces courses rapides, impressionnantes et franchement dangereuses!",
-    age_recommended: "70+",
+    age_recommended: "+70",
     name_guide: "Luna Lovegood",
     image: "src/assets/images/course-buffalo.png",
     country: "Thaïlande",
@@ -131,7 +131,7 @@ export const voyageData = [
     name_activity: "Marathon des Sables",
     description:
       "Se déroulant à chaque année au mois d’avril, ce marathon prenant place dans le Sud du Maroc est une course d’environ 240 kilomètres pendant laquelle les participants doivent porter sur leur dos la nourriture suffisante pour une semaine. Une épreuve sportive extrêmement difficile qui se déroule dans la chaleur du désert, sous des températures extrêmes pouvant avoisiner les 50 degrés.",
-    age_recommended: "70+",
+    age_recommended: "+70",
     name_guide: "Michael Scott",
     image: "src/assets/images/MarathonDesSables.png",
     country: "Maroc",
@@ -145,7 +145,7 @@ export const voyageData = [
     name_activity: "Monter la tour Burj Khalifa à pied",
     description:
       "Vous n'êtes pas sportif et vous êtes claustrophobe ? Ce n'est pas grave ! Vivez une expérience inédite d'arriver au sommet de la plus grande tour du Monde à pied.  ",
-    age_recommended: "70+",
+    age_recommended: "+70",
     name_guide: "Michael Scott",
     image: "src/assets/images/burj-kalifa.png",
     country: "Émirats Arabe Unis",
@@ -187,7 +187,7 @@ export const voyageData = [
     name_activity: "Faire un safari à pied",
     description:
       "Vous avez marre d'être enfermé dans une voiture en voyant les animaux quelque part au loin ...? Nous aussi ! C'est pour cela qu'on vous propose le premier safari au monde à pied. Vous verrez les animaux de près et peut-être que vous pourrez même les carresser.",
-    age_recommended: "70+",
+    age_recommended: "+70",
     name_guide: "Michael Scott",
     image: "src/assets/images/Safari.jpeg",
     country: "Namibie",
@@ -215,7 +215,7 @@ export const voyageData = [
     name_activity: "Faire de la high-line entre deux montgolfières",
     description:
       "Vivez une expérience vertigineuse en marchant sur la high-line entre deux montgolfières. Tout ce qu'il faut c'est un peu d'équilibre et un testament à jour.",
-    age_recommended: "70+",
+    age_recommended: "+70",
     name_guide: "Michael Scott",
     image: "src/assets/images/high-line.png",
     country: "Brésil",
@@ -229,7 +229,7 @@ export const voyageData = [
     name_activity: "Tenter de battre le record de Jacques Mayol en Apnée",
     description:
       "Vous avez aimé le film Le Grand Bleu ? Nous pouvons vous faire revivre les emotions de Jacques Mayol ! Tentez de battre son record afin que votre nom reste dans l'histoire. Prérequis nécessaire ? Aucun !",
-    age_recommended: "70+",
+    age_recommended: "+70",
     name_guide: "Ron Swanson",
     image: "src/assets/images/apnee.webp",
     country: "Italie",
@@ -257,7 +257,7 @@ export const voyageData = [
     name_activity: "Lacher de taureau",
     description:
       "Admirez l'événement le plus emblématique de la ville depuis le premier rang. Nous vous réserverons une table en terasse dans la rue principale de la ville. Vous la reconnaitrez pas sa nappe rouge.",
-    age_recommended: "70+",
+    age_recommended: "+70",
     name_guide: "Ron Swanson",
     image: "src/assets/images/taureau-Pamplune.png",
     country: "Espagne",
@@ -313,7 +313,7 @@ export const voyageData = [
     name_activity: "Nager avec les requins",
     description:
       "Beaucoup sous-estiment l'intelligence et la gentillesse des requins. Ce sont des animaux très attachants et affectueux.",
-    age_recommended: "70+",
+    age_recommended: "+70",
     name_guide: "Jim Carrey",
     image: "src/assets/images/Requin.png",
     country: "France",
@@ -347,7 +347,7 @@ export const voyageData = [
     country: "Portugal",
     city: "Nazaré",
     price: 980,
-    dangerosity: 8.9, 
+    dangerosity: 8.9,
     country_id: 15,
   },
   {
@@ -388,7 +388,7 @@ export const voyageData = [
     image: "src/assets/images/Smic.png",
     country: "France",
     city: "Bordeaux",
-    price: 1645.48,
+    price: 1645,
     dangerosity: 9.5,
     country_id: 7,
   },
@@ -438,7 +438,7 @@ export const voyageData = [
   {
     id_activity: 32,
     name_activity: "Manger du fugu",
-    description:"Vous aimez des sushis ? Vous devez goûter le fugu ! C’est un poisson toxique qui ne peut être servi au Japon que dans les restaurants disposant d’un maître fugu qualifié. Notre maître fugu étant en arrêt maladie, on a fait appel à son stagiaire Jonathan. Ca devrait être tout aussi bon !",
+    description: "Vous aimez des sushis ? Vous devez goûter le fugu ! C’est un poisson toxique qui ne peut être servi au Japon que dans les restaurants disposant d’un maître fugu qualifié. Notre maître fugu étant en arrêt maladie, on a fait appel à son stagiaire Jonathan. Ca devrait être tout aussi bon !",
     age_recommended: "18-70",
     name_guide: "Phoebe Buffay",
     image: "src/assets/images/Fugu.png",

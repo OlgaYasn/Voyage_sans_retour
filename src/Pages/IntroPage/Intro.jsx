@@ -8,18 +8,16 @@ const Intro = () => {
       <div className="intro__container">
         <img
           className="intro__img"
-          src="src/assets/logos/Avion-casse.png"
+          src="src/assets/logos/logo-intro.png"
           alt="image intro"
         />
-        <h1>Voyage</h1>
-        <h2>sans retour</h2>
         <NavLink className="home" to="/home">
-        <div className="button">
-          <p className="btnText">READY ?</p>
-          <div className="btnTwo">
-            <p className="btnText2">GO!</p>
+          <div className="button">
+            <p className="btnText">READY ?</p>
+            <div className="btnTwo">
+              <p className="btnText2">GO!</p>
+            </div>
           </div>
-        </div>
         </NavLink>
       </div>
     </div>

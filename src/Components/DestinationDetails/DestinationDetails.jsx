@@ -6,7 +6,7 @@ import DestinationCardDetails from "./DestinationCardDetails"
 const DestinationDetails = () => {
     return (
 
-        <div>
+        <div className="cardActivity">
             {voyageData.map((element) => (<div
                 key={element.id_activity}>
                 <DestinationCardDetails activity={element.name_activity}

@@ -68,24 +68,29 @@ const Reservation = () => {
               <span className="field__label">E-mail</span>
             </span>
           </div>
+          <div className="field field_v2">
+            <label htmlFor="message" className="ha-screen-reader">
+              Votre message
+            </label>
+            <input
+              id="last-name"
+              className="field__input"
+              placeholder="Votre message"
+            />
+            <span className="field__label-wrap" aria-hidden="true">
+              <span className="field__label">Message</span>
+            </span>
+          </div>
+
           <div className="card">
-            <div className="content-wrapper">
-           
-            </div>
-            <div className="demo">
-              <label className="toggle" htmlFor="uniqueID">
-                <input
-                  type="checkbox"
-                  className="toggle__input"
-                  id="uniqueID"
-                />
-                <span className="toggle-track">
-                  <span className="toggle-indicator"></span>
-                </span>
+            <div className="content-wrapper"></div>
+            <form action="">
+              <label className="form-control">
+                <input type="checkbox" name="checkbox" />
                 Je confirme avoir bien lu et compris les modalités et conditions
                 de la présente transaction.
               </label>
-            </div>
+            </form>
           </div>
           <button
             type="button"

@@ -11,12 +11,12 @@ const DestinationCardDetails = ({ activity, description, age, guide, image, coun
             <p className="DescriptionActivity">{description}</p>
             <p className="Guide">Votre guide : {guide}</p>
             <div className="FuckingDangerosity">
-                <img className="pictoDead" src="./src/assets/logos/picto-cardDetails.png" />
+                <img className="pictoDead" src="./src/assets/logos/pictoDead.png" />
                 <p>Taux de dangerosité : {dangerosity}</p>
             </div>
-            <p className="Age">Age recommandé : {age}</p>
+            <p className="Age">Age recommandé : {age} ans</p>
             <p className="Price">{price} €</p>
-            <p className="Country">{country} {city}</p>
+            <p className="Country">{country} / {city}</p>
 
         </div>
     )
