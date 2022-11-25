@@ -21,3 +21,7 @@
     top: 15vh;
     left: 10vw;
 }
+
+.destination__container:hover {
+    display: none;
+}
