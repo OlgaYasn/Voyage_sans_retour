@@ -1,21 +1,25 @@
 .miniCard_display {
-margin: 10px;
-display: flex;
-justify-content: space-between;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
 
 
 }
 
 .miniCard_text {
-font-family: var(--font-text);
+    font-family: var(--font-text);
+    text-align: left;
 }
 
 .miniCard_title {
     font-family: var(--font-title);
     color: var(--color-violet);
     font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .card_logo {
     width: 20%;
 }
+
