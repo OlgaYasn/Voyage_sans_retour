@@ -3,5 +3,17 @@
     width: 23vw;
     background-color: rgb(209, 209, 226);
     padding: 1.5vw;
+}
     
+    
+
+.country_select {
+    display: flex;
+    justify-content: center;
+}
+
+.country_data li {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
 }

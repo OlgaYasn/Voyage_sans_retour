@@ -1,22 +1,27 @@
 import React from 'react';
 import "./DestinationDetails.css";
+import { voyageData } from "../../utils/voyageData";
+import DestinationCardDetails from "./DestinationCardDetails"
 
 const DestinationDetails = () => {
     return (
-        <div className="cardDetail">
-            <img className="PictureDetails" src="./src/assets/images/plongé.png" />
-            <h1 className="NameActivity">Titre</h1>
-            <img className="Buy" src="./src/assets/logos/valise01-black.png" />
-            <p className="DescriptionActivity">Description</p>
-            <p className="Guide">Guide</p>
-            <div className="FuckingDangerosity">
-                <img className="pictoDead" src="./src/assets/logos/picto-cardDetails.png" />
-                <p>Dangerosité</p>
-            </div>
-            <p className="Age">age reco</p>
-            <p className="Price">prix</p>
-            <p className="Country">pays + ville</p>
+
+        <div>
+            {voyageData.map((element) => (<div
+                key={element.id_activity}>
+                <DestinationCardDetails activity={element.name_activity}
+                    description={element.description}
+                    age={element.age_recommended}
+                    guide={element.name_guide}
+                    image={element.image}
+                    country={element.country}
+                    city={element.city}
+                    price={element.price}
+                    dangerosity={element.dangerosity} />
+            </div>))}
+
         </div>
+
     );
 };
 

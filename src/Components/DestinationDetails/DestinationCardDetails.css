@@ -1,0 +1,60 @@
+.PictureDetails {
+    justify-content: flex-start;
+    align-items: stretch;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    grid-area: 1 / 1 / 6 / 2;
+    width: 100%;
+}
+
+.pictoDead {
+    text-align: start;
+    width: 50%;
+}
+
+.NameActivity {
+    margin-left: 2vw;
+    grid-area: 1 / 2 / 2 / 5;
+    color: #bf00bf;
+}
+
+.Buy {
+    grid-area: 1 / 5 / 2 / 6;
+    width: 50%;
+}
+
+.DescriptionActivity {
+    margin-left: 2vw;
+    grid-area: 2 / 2 / 3 / 6;
+    color: white;
+}
+
+.Guide {
+    margin-left: 2vw;
+    grid-area: 5 / 2 / 6 / 4;
+    color: white;
+
+}
+
+.FuckingDangerosity {
+    display: flex;
+    flex-direction: row;
+    grid-area: 4 / 2 / 5 / 4;
+    color: white;
+}
+
+.Age {
+    grid-area: 3 / 4 / 4 / 6;
+    color: white;
+}
+
+.Price {
+    grid-area: 5 / 5 / 6 / 6;
+    color: #bf00bf;
+}
+
+.Country {
+    margin-left: 2vw;
+    grid-area: 3 / 2 / 4 / 4;
+    color: white;
+}

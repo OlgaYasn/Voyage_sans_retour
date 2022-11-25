@@ -1,4 +1,4 @@
-export const voyageInfo = [
+export const voyageData = [
   {
     id_activity: 1,
     name_activity: "Traverser la rue en Thailande",
@@ -6,7 +6,7 @@ export const voyageInfo = [
       "Le Code de la route existe en Thaïlande, même s'il est peu appliqué. C’est sûrement pour cela qu’il s’agit d’un des 3 pays au monde qui connaît le plus d’accidents de la route. les Thaïlandais sont très peu respectueux du Code de la route. Les véhicules sont nombreux et variés sur les chaussées :  Il en résulte une ambiance anarchique, qu'il vous faudra gérer avec sang froid. Les accidents sont fréquents et souvent mortels. Les limites de vitesse, à 50 km/h en ville et 100 km/h en campagne, ne sont pas respectées.",
     age_recommended: "18-70",
     name_guide: "Phoebe Buffay",
-    image: "src/assets/traverser_route.png",
+    image: "src/assets/images/traverser-route.png",
     country: "Thaïlande",
     city: "Bangkok",
     price: 80,
