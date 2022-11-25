@@ -5,10 +5,8 @@ import { voyageDetails } from '../../utils/voyageDetails'
 import PropTypes from "prop-types";
 import './Destination.css'
 
-const Destination = ({setActivityName}) => {
-
-  const [selectCountry, setSelectCountry] = useState("");
-  
+const Destination = ({ setActivityName }) => {
+  const [selectCountry, setSelectCountry] = useState('')
 
   const handleChange = (e) => {
     setSelectCountry(e.target.value)
