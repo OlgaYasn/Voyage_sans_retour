@@ -7,8 +7,12 @@ const Reservation = () => {
     <div>
       <Navbar />
       <div className="titleBlock">
+        <img
+          className="check_panier-reservation"
+          src="src/assets/logos/check-violet.png"
+        />
         <h1 className="reservation__title">
-          Prêt(e) pour l'aventure de votre vie?{" "}
+          Prêt(e) pour l`aventure de votre vie?{" "}
         </h1>{" "}
         <h1 className="reservation__title"> Réservez-la ici !</h1>
       </div>
