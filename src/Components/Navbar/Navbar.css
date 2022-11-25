@@ -12,8 +12,8 @@
     position: relative;
     width: 25%;
     height: 25%;
-    margin-top: 2vh;
-    margin-left: 2vw;
+    margin-top: 0.5rem;
+    margin-left: 40px;
 }
 
 .navbar__img__valise {
@@ -26,8 +26,7 @@ a {
     position: relative;
 }
 
-a .navbar__img__valise {
-    position: relative;
-    display: flex;
-    justify-content: center;
+.navbar_title {
+    color: white;
+    margin-right: 40px;
 }
