@@ -1,40 +1,45 @@
-.intro{
-position: relative;
-display: flex;
-justify-content: center;
-align-items: center;
+.intro {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.intro__container{
-display: flex;
-flex-direction: column;
-justify-content: start;
-align-items: center;
+
+.intro__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
-.intro__img{
-position: relative;
-width: 25%;
-height: 25%;
+
+.intro__img {
+    position: relative;
+    width: 40vw;
+
 }
-.intro__container h1{
-margin-top: -6%;
-margin-bottom: 5px;
-color: #FFF;
-font-size: 5rem;
+
+.intro__container h1 {
+    margin-top: -6%;
+    margin-bottom: 5px;
+    color: #FFF;
+    font-size: 5rem;
 }
+
 .intro__container h2 {
-margin: 0%;
-color: #FFF;
-font-size: 3rem;
+    margin: 0%;
+    color: #FFF;
+    font-size: 3rem;
 }
-.btn__intro{
-border-radius: 8px;
-padding: 5px;
-margin: 15px;
+
+.btn__intro {
+    border-radius: 8px;
+    padding: 5px;
+    margin: 15px;
 }
 
 .button {
     background: black;
-    margin: 50px auto;
+    margin: 20px auto;
     width: 200px;
     height: 50px;
     overflow: hidden;
@@ -45,7 +50,8 @@ margin: 15px;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
     border-radius: 15px;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
