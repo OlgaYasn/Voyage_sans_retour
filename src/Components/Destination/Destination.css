@@ -8,8 +8,7 @@
     background: #847E7F;
         background: -moz-linear-gradient(top, #847E7F 0%, #7C8189 30%, #181A23 100%);
         background: -webkit-linear-gradient(top, #847E7F 0%, #7C8189 30%, #181A23 100%);
-        background: linear-gradient(to bottom, #847E7F 0%, #7C8189 30%, #181A23 100%);
-    
+        background: linear-gradient(to bottom, #847E7F 0%, #7C8189 30%, #181A23 100%); 
 }
 
 .cardList h1 {
