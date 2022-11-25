@@ -7,26 +7,25 @@
 
 .argentine {
     width: 3vw;
-    position: absolute;
-    top: 73vh;
+    position: relative;
+    bottom: 22vh;
     left: 22vw;
     background-color: aqua;
-
 }
 
 .bolivie {
     width: 3vw;
-    position: absolute;
-    top: 66vh;
-    left: 20.5vw;
+    position: relative;
+    bottom: 28vh;
+    left: 17vw;
     background-color: red;
 }
 
 .bresil {
     width: 3vw;
-    position: absolute;
-    top: 64vh;
-    left: 24vw;
+    position: relative;
+    bottom: 29vh;
+    left: 18vw;
     background-color: green;
 }
 
