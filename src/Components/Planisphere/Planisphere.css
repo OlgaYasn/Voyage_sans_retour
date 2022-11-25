@@ -1,6 +1,6 @@
 .planisphere_img {
     width: 71vw;
-    position:relative;
+    position: relative;
     height: auto;
     padding: 1.5vw;
 }
@@ -10,7 +10,6 @@
     position: relative;
     bottom: 22vh;
     left: 22vw;
-    background-color: aqua;
 }
 
 .bolivie {
@@ -18,7 +17,6 @@
     position: relative;
     bottom: 28vh;
     left: 17vw;
-    background-color: red;
 }
 
 .bresil {
@@ -26,128 +24,127 @@
     position: relative;
     bottom: 29vh;
     left: 18vw;
-    background-color: green;
 }
 
 .cambodge {
-    width: 7vmin;
-    position: absolute;
-    top: 70vmin;
-    left: 52vmin;
-    background-color: green;
+    width: 3vw;
+    position: relative;
+    bottom: 50vh;
+    left: vw;
+    background-color: red;
 }
 
 .emirats_arabes_unis {
-    width: 7vmin;
-    position: absolute;
-    top: 70vmin;
-    left: 52vmin;
+    width: 3vw;
+    position: relative;
+    bottom: 29vh;
+    left: 18vw;
     background-color: green;
 }
 
 .espagne {
-    width: 7vmin;
-    position: absolute;
+    width: 3vw;
+    position: relative;
     top: 70vmin;
     left: 52vmin;
     background-color: green;
 }
 
 .france {
-    width: 7vmin;
-    position: absolute;
+    width: 3vw;
+    position: relative;
     top: 70vmin;
     left: 52vmin;
     background-color: green;
 }
 
 .inde {
-    width: 7vmin;
-    position: absolute;
+    width: 3vw;
+    position: relative;
     top: 70vmin;
     left: 52vmin;
     background-color: green;
 }
 .italie {
-    width: 7vmin;
-    position: absolute;
+    width: 3vw;
+    position: relative;
     top: 70vmin;
     left: 52vmin;
     background-color: green;
 }
 .japon {
-    width: 7vmin;
-    position: absolute;
+    width: 3vw;
+    position: relative;
     top: 70vmin;
     left: 52vmin;
     background-color: green;
 }
 .maroc {
-    width: 7vmin;
-    position: absolute;
+    width: 3vw;
+    position: relative;
     top: 70vmin;
     left: 52vmin;
     background-color: green;
 }
 .namibie {
-    width: 7vmin;
-    position: absolute;
+    width: 3vw;
+    position: relative;
     top: 70vmin;
     left: 52vmin;
     background-color: green;
 }
 .nepal {
-    width: 7vmin;
-    position: absolute;
+    width: 3vw;
+    position: relative;
     top: 70vmin;
     left: 52vmin;
     background-color: green;
 }
 .pays_bas {
-    width: 7vmin;
-    position: absolute;
+    width: 3vw;
+    position: relative;
     top: 70vmin;
     left: 52vmin;
     background-color: green;
 }
 .portugal {
-    width: 7vmin;
-    position: absolute;
+    width: 3vw;
+    position: relative;
     top: 70vmin;
     left: 52vmin;
     background-color: green;
 }
 .russie {
-    width: 7vmin;
-    position: absolute;
+    width: 3vw;
+    position: relative;
     top: 70vmin;
     left: 52vmin;
     background-color: green;
 }
 .tahiti {
-    width: 7vmin;
-    position: absolute;
+    width: 3vw;
+    position: relative;
     top: 70vmin;
     left: 52vmin;
     background-color: green;
 }
 .thailande {
-    width: 7vmin;
-    position: absolute;
+    width: 3vw;
+    position: relative;
     top: 70vmin;
     left: 52vmin;
     background-color: green;
 }
 .usa {
-    width: 7vmin;
-    position: absolute;
+    width: 3vw;
+    position: relative;
     top: 70vmin;
     left: 52vmin;
     background-color: green;
 }
 .vietnam {
-    width: 7vmin;
-    position: absolute;
+    width: 3vw;
+    position: relative;
     top: 70vmin;
     left: 52vmin;
     background-color: green;
