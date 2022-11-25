@@ -11,8 +11,8 @@ const MiniCard = ({country, activity}) => {
           <p className="miniCard_text">{activity}</p>
         </div>
         <img
-          src="src/assets/logos/picto-cardDetails.png"
-          alt="logo"
+          src="../src/assets/logos/pictoDead.png"
+          alt="image"
           className="card_logo"
         />
       </div>
