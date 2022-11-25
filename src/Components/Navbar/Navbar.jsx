@@ -12,7 +12,7 @@ const Navbar = () => {
           alt="image intro"
         />
       </Link>
-      <Link to="/reservations">
+      <Link className='link__valise' to="/reservations">
         <img
           className="navbar__img__valise"
           src="src/assets/logos/valise-white.png"

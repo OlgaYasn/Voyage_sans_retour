@@ -26,20 +26,17 @@ const handlePopUp = () => {
       <img className="PictureDetails" src={image} />
       <h1 className="NameActivity">{activity}</h1>
      <img onClick={handlePopUp} className="Buy" src="./src/assets/logos/valise-white.png" />
-      <div>{popUp && <PopUp popUp={popUp}/>}</div>
+      <div>{popUp && (<div><PopUp popUp={popUp}/><img className="check_panier" src="src/assets/logos/check-violet.png"/></div>)}</div>
       <p className="DescriptionActivity">{description}</p>
       <p className="Guide">Votre guide : {guide}</p>
       <div className="FuckingDangerosity">
-        <img
-          className="pictoDead"
-          src="./src/assets/logos/picto-cardDetails.png"
-        />
+        <img className="pictoDead" src="./src/assets/logos/pictoDead.png" />
         <p>Taux de dangerosité : {dangerosity}</p>
       </div>
-      <p className="Age">Age recommandé : {age}</p>
+      <p className="Age">Age recommandé : {age} ans</p>
       <p className="Price">{price} €</p>
       <p className="Country">
-        {country} {city}
+        {country} / {city}
       </p>
     </div>
   )
@@ -54,5 +51,5 @@ DestinationCardDetails.propTypes = {
   city: PropTypes.func.isRequired,
   price: PropTypes.arrayOf.isRequired,
   dangerosity: PropTypes.arrayOf.isRequired,
-};
+}
 export default DestinationCardDetails

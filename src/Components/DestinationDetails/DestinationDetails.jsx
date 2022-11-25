@@ -6,7 +6,7 @@ import DestinationCardDetails from './DestinationCardDetails'
 
 const DestinationDetails = ({ activityName }) => {
   return (
-    <div>
+    <div className='destination__container'>
       {voyageData.filter((el)=> el.name_activity == activityName)
       .map((element) => (
         <div key={element.id_activity}>

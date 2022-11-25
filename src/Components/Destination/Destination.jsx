@@ -5,8 +5,10 @@ import { voyageDetails } from '../../utils/voyageDetails'
 import PropTypes from "prop-types";
 import './Destination.css'
 
-const Destination = ({ setActivityName }) => {
-  const [selectCountry, setSelectCountry] = useState('')
+const Destination = ({setActivityName}) => {
+
+  const [selectCountry, setSelectCountry] = useState("");
+  
 
   const handleChange = (e) => {
     setSelectCountry(e.target.value)
@@ -18,7 +20,7 @@ const Destination = ({ setActivityName }) => {
 
   return (
     <div className="cardList">
-      <h1>💥 DESTINATIONS 💥</h1>
+      <h1>💥 Destinations 💥</h1>
       <form className="country_select">
         <label htmlFor="country_select">
           <select id="country_select" onChange={handleChange}>
