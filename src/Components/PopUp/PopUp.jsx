@@ -1,12 +1,12 @@
-import React from "react";
-import { ReactPropTypes } from "react";
+
+import { React } from "react";
 import "./PopUp.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const PopUp = ({ popUp }) => {
   const [newPopop, setNewPopop] = useState(popUp);
-    const [check, setCheck] = useState(false);
+  const [check, setCheck] = useState(false);
 
   const handleClick = () => {
     setNewPopop(!newPopop)
@@ -35,9 +35,5 @@ const PopUp = ({ popUp }) => {
     )
   );
 };
-
-PopUp.propTypes = {
-    popUp: ReactPropTypes.func.isRequired,
-  }
 
 export default PopUp;
