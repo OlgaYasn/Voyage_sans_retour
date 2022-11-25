@@ -42,9 +42,9 @@ const Destination = ({setActivityName}) => {
 
           .map((element) => (
             <li key={element.id_activity} className="country_details">
-              <div onClick={handleClick}>
-                      <MiniCard activity={element.name_activity} />
-              </div>
+              <button type="button" onClick={handleClick}>
+                <MiniCard activity={element.name_activity} />
+              </button>
             </li>
           ))}
       </ul>
