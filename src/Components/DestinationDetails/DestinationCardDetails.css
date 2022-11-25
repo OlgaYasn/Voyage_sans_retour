@@ -5,7 +5,6 @@
     border-bottom-left-radius: 10px;
     grid-area: 1 / 1 / 6 / 2;
     width: 100%;
-
 }
 
 .pictoDead {
@@ -14,7 +13,7 @@
 }
 
 .NameActivity {
-    margin-right: 5vw;
+    margin-left: 2vw;
     grid-area: 1 / 2 / 2 / 5;
     color: #bf00bf;
 }
@@ -25,11 +24,13 @@
 }
 
 .DescriptionActivity {
+    margin-left: 2vw;
     grid-area: 2 / 2 / 3 / 6;
     color: white;
 }
 
 .Guide {
+    margin-left: 2vw;
     grid-area: 5 / 2 / 6 / 4;
     color: white;
 
@@ -53,6 +54,7 @@
 }
 
 .Country {
+    margin-left: 2vw;
     grid-area: 3 / 2 / 4 / 4;
     color: white;
 }

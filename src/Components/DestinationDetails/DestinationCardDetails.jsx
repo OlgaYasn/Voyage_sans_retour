@@ -7,9 +7,9 @@ const DestinationCardDetails = ({ activity, description, age, guide, image, coun
         <div className="cardDetail">
             <img className="PictureDetails" src={image} />
             <h1 className="NameActivity">{activity}</h1>
-            <img className="Buy" src="./src/assets/logos/valise01-black.png" />
+            <img className="Buy" src="./src/assets/logos/valise-white.png" />
             <p className="DescriptionActivity">{description}</p>
-            <p className="Guide">{guide}</p>
+            <p className="Guide">Votre guide : {guide}</p>
             <div className="FuckingDangerosity">
                 <img className="pictoDead" src="./src/assets/logos/picto-cardDetails.png" />
                 <p>Taux de dangerosité : {dangerosity}</p>
