@@ -24,7 +24,7 @@ const Destination = ({setActivityName}) => {
       <form className="country_select">
         <label htmlFor="country_select">
           <select id="country_select" onChange={handleChange}>
-            <option value="">---</option>
+            <option value="">Faites votre choix</option>
             {voyageDetails.map((element) => (
               <option key={element.id} value={element.name}>
                 {element.name}

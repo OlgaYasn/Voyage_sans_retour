@@ -108,7 +108,7 @@ const Reservation = () => {
             type="button"
             className="btn btn--primary btn--inside uppercase"
           >
-            Réservez
+            Réserver
           </button>
           {newPopop && <PopUpReservation />}
         </div>

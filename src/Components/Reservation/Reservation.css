@@ -63,10 +63,6 @@
   justify-content: center;
 }
 
-.uppercase {
-  text-transform: uppercase;
-}
-
 .btn {
   display: inline-block;
   background: transparent;
