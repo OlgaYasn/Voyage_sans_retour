@@ -202,7 +202,7 @@ export const voyageData = [
       "Vous avez marre d'être enfermé dans une voiture en voyant les animaux quelque part au loin ...? Nous aussi ! C'est pour cela qu'on vous propose le premier safari au monde à pied. Vous verrez les animaux de près et peut-être que vous pourrez même les carresser.",
     age_recommended: "+70",
     name_guide: "Michael Scott",
-    image: "src/assets/images/Safari.jpeg",
+    image: "src/assets/images/Safari.png",
     country: "Namibie",
     city: "Windhoek",
     price: 300,
@@ -392,7 +392,7 @@ export const voyageData = [
   },
   {
     id_activity: 27,
-    name_activity: "Refaire son passeport en 3 jours ",
+    name_activity: "Refaire son passeport en 3 jours",
     description:
       "Envie d'une aventure à la dernière minute dans un pays exotique ? Pas de problème. Faites confiance à l'administration française pour finaliser vos documents dans les plus brefs délais.",
     age_recommended: "18-70",

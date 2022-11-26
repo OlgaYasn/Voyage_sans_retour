@@ -35,7 +35,7 @@ const handlePopUp = () => {
             <img
               className="cancelButton"
               onClick={handleClick}
-              src="src/assets/logos/cancel.png"
+              src="src/assets/logos/cancel2.png"
               alt="logo"
             />
           }

@@ -65,6 +65,10 @@
     color: white;
 }
 
+.pictoDead{
+    width:3vw;
+}
+
 .Age {
     font-size: .8rem;
     margin-top: 1vh;
