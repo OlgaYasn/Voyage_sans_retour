@@ -1,16 +1,4 @@
-.planisphere_img {
-  width: 68vw;
-  height: auto;
-  padding: 1.5vw;
-}
 
-.planisphere {
-  fill: #cccccc;
-  fill-opacity: 1;
-  stroke: white;
-  stroke-opacity: 1;
-  stroke-width: 0.5;
-}
 /* .argentine {
     width: 3vw;
     position: relative;

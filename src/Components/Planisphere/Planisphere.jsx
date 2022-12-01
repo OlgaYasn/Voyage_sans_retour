@@ -1,20 +1,20 @@
 import React from 'react';
+import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 import "./Planisphere.css";
-// import {map} from "src/assets/images/map.png";
 
 const Planisphere = () => {
     return (
       <div className="planisphere">
-        <img
-          className="planisphere_img"
-          src="src/assets/images/map.png"
-          alt="carte du Monde"
-        />
-        {/* <img className="planisphere_img" src="/src/assets/logos/map.png" alt="" />
-            <div className="valises">{voyageDetails.map((country) => (
-                <img onClick={handleClickMap} key={country.id} className={country.className_planisphere} src="src/assets/logos/valise-white.png" alt={country.name} />))}
-            </div> */}
-      </div>
+      <ComposableMap>
+      <Geographies geography="../../utils/features.json">
+        {({ geographies }) =>
+          geographies.map((geo) => (
+            <Geography key={geo.rsmKey} geography={geo} />
+          ))
+        }
+      </Geographies>
+    </ComposableMap>
+  </div>
     );
 };
 
