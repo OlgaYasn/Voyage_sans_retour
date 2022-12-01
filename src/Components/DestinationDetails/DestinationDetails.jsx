@@ -1,18 +1,33 @@
-import React from 'react';
-import "./DestinationDetails.css";
+import React from 'react'
+import './DestinationDetails.css'
+import PropTypes from "prop-types";
+import { voyageData } from '../../utils/voyageData'
+import DestinationCardDetails from './DestinationCardDetails'
 
-const DestinationDetails = () => {
-    return (
-        <div className='cardDetail'>
-            <h1>Titre</h1>
-            <p>Description</p>
-            <p>Guide</p>
-            <p>Dangerosité</p>
-            <p>age reco</p>
-            <p>prix</p>
-            <p>pays + ville</p>
+const DestinationDetails = ({ activityName }) => {
+  return (
+    <div className='destination__container'>
+      {voyageData.filter((el)=> el.name_activity == activityName)
+      .map((element) => (
+        <div key={element.id_activity}>
+          <DestinationCardDetails
+            activity={element.name_activity}
+            description={element.description}
+            age={element.age_recommended}
+            guide={element.name_guide}
+            image={element.image}
+            country={element.country}
+            city={element.city}
+            price={element.price}
+            dangerosity={element.dangerosity}
+          />
         </div>
-    );
-};
+      ))}
+    </div>
+  )
+}
 
-export default DestinationDetails;
+DestinationDetails.propTypes = {
+  activityName: PropTypes.func.isRequired,
+};
+export default DestinationDetails
